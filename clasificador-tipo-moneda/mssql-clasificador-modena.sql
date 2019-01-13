@@ -6,9 +6,9 @@ CREATE TABLE [dbo].[Monedas]
 	[CodigoAlfabetico]		varchar(3)		NOT NULL,
 	[Descripcion]			varchar(64)		NOT NULL
 
-	CONSTRAINT UQ_Moneda_CodigoMoneda		UNIQUE ([CodigoMoneda]),
-	CONSTRAINT UQ_Moneda_SiglaMoneda		UNIQUE ([SiglaMoneda]),
-	CONSTRAINT UQ_Moneda_CodigoAlfabetico	UNIQUE ([CodigoAlfabetico]),
+	CONSTRAINT UQ_Monedas_CodigoMoneda		UNIQUE ([CodigoMoneda]),
+	CONSTRAINT UQ_Monedas_SiglaMoneda		UNIQUE ([SiglaMoneda]),
+	CONSTRAINT UQ_Monedas_CodigoAlfabetico	UNIQUE ([CodigoAlfabetico]),
 );
 GO
 
