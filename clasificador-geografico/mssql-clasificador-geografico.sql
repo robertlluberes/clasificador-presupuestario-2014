@@ -1,7 +1,7 @@
 CREATE TABLE [dbo].[Regiones]
 (
-	[RegionID]				tinyint			PRIMARY KEY	IDENTITY(1, 1),
-	[Codigo]				varchar(3)		NOT NULL,
+	[RegionID]			tinyint			PRIMARY KEY	IDENTITY(1, 1),
+	[Codigo]			varchar(3)		NOT NULL,
 	[Denominacion]			varchar(64)		NOT NULL
 
 	CONSTRAINT UQ_Regiones_Codigo			UNIQUE ([Codigo]),
@@ -29,9 +29,9 @@ GO
 CREATE TABLE [dbo].[Provincias]
 (
 	[ProvinciaID]			tinyint			PRIMARY KEY	IDENTITY(1, 1),
-	[Codigo]				varchar(3)		NOT NULL,
+	[Codigo]			varchar(3)		NOT NULL,
 	[Denominacion]			varchar(64)		NOT NULL,
-	[RegionID]				tinyint			NOT NULL
+	[RegionID]			tinyint			NOT NULL
 
 	CONSTRAINT FK_Provincias_Regiones_RegionID FOREIGN KEY ([RegionID]) REFERENCES [Regiones] ([RegionID])
 );
@@ -39,64 +39,64 @@ GO
 
 INSERT INTO [dbo].[Provincias]
 VALUES
-	-- Provincias de la RegiÛn Cibao Norte
+	-- Provincias de la Regi√≥n Cibao Norte
 	('01', 'Santiago', 1),
 	('02', 'Puerto Plata', 1),
 	('03', 'Espaillat', 1),
 	('08', 'Multiprovincial', 1),
 	('08', 'Multimunicipal', 1),
-	-- Provincias de la RegiÛn Cibao Sur
-	('01', 'ConcepciÛn de La Vega', 2),
-	('02', 'MonseÒor Nouel', 2),
-	('03', 'S·nchez RamÌrez', 2),
+	-- Provincias de la Regi√≥n Cibao Sur
+	('01', 'Concepci√≥n de La Vega', 2),
+	('02', 'Monse√±or Nouel', 2),
+	('03', 'S√°nchez Ram√≠rez', 2),
 	('08', 'Multiprovincial', 2),
 	('08', 'Multimunicipal', 2),
-	-- Provincias de la RegiÛn Cibao Nordeste
+	-- Provincias de la Regi√≥n Cibao Nordeste
 	('01', 'Duarte', 3),
 	('02', 'Hermanas Mirabal', 3),
-	('03', 'MarÌa Trinidad S·nchez', 3),
-	('04', 'Saman·', 3),
+	('03', 'Mar√≠a Trinidad S√°nchez', 3),
+	('04', 'Saman√°', 3),
 	('09', 'Multiprovincial', 3),
 	('09', 'Multimunicipal', 3),
-	-- Provincias de la RegiÛn Cibao Noroeste
+	-- Provincias de la Regi√≥n Cibao Noroeste
 	('01', 'Valverde', 4),
 	('02', 'Santiago Rodriguez', 4),
 	('03', 'Montecristi', 4),
-	('04', 'DajabÛn', 4),
+	('04', 'Dajab√≥n', 4),
 	('08', 'Multiprovincial', 4),
 	('08', 'Multimunicipal', 4),
-	-- Provincias de la RegiÛn Valdesia
-	('01', 'San CristÛbal', 5),
+	-- Provincias de la Regi√≥n Valdesia
+	('01', 'San Crist√≥bal', 5),
 	('02', 'Peravia', 5),
-	('03', 'San JosÈ de Ocoa', 5),
+	('03', 'San Jos√© de Ocoa', 5),
 	('04', 'Azua', 5),
 	('08', 'Multiprovincial', 5),
 	('08', 'Multimunicipal', 5),
-	-- Provincias de la RegiÛn Enriquillo
+	-- Provincias de la Regi√≥n Enriquillo
 	('01', 'Barahona', 6),
 	('02', 'Bahoruco', 6),
 	('03', 'Pedernales', 6),
 	('04', 'Independencia', 6),
 	('08', 'Multiprovincial', 6),
 	('08', 'Multimunicipal', 6),
-	-- Provincias de la RegiÛn El Valle
+	-- Provincias de la Regi√≥n El Valle
 	('01', 'San Juan', 7),
-	('02', 'ElÌas PiÒa', 7),
+	('02', 'El√≠as Pi√±a', 7),
 	('08', 'Multiprovincial', 7),
 	('08', 'Multimunicipal', 7),
-	-- Provincias de la RegiÛn Yuma
+	-- Provincias de la Regi√≥n Yuma
 	('01', 'La Romana', 8),
 	('02', 'La Altagracia', 8),
 	('03', 'El Seibo', 8),
 	('08', 'Multiprovincial', 8),
 	('08', 'Multimunicipal', 8),
-	-- Provincias de la RegiÛn Higuamo
-	('01', 'San Pedro de MacorÌs', 9),
+	-- Provincias de la Regi√≥n Higuamo
+	('01', 'San Pedro de Macor√≠s', 9),
 	('02', 'Hato Mayor', 9),
 	('03', 'Monte Plata', 9),
 	('08', 'Multiprovincial', 9),
 	('08', 'Multimunicipal', 9),
-	-- Provincias de la RegiÛn Ozama o Metropolitana
+	-- Provincias de la Regi√≥n Ozama o Metropolitana
 	('01', 'Distrito Nacional', 10),
 	('02', 'Santo Domingo', 10),
 	('08', 'Multiprovincial', 10),
@@ -110,7 +110,7 @@ GO
 CREATE TABLE [dbo].[Municipios]
 (
 	[MunicipioID]			tinyint			PRIMARY KEY	IDENTITY(1, 1),
-	[Codigo]				varchar(3)		NOT NULL,
+	[Codigo]			varchar(3)		NOT NULL,
 	[Denominacion]			varchar(64)		NOT NULL,
 	[ProvinciaID]			tinyint			NOT NULL
 
@@ -120,17 +120,17 @@ GO
 
 INSERT INTO [dbo].[Municipios]
 VALUES
-	-- RegiÛn Cibao Norte
+	-- Regi√≥n Cibao Norte
 	-- Municipios de la provincia Santiago 
 	('01', 'Santiago de los Caballeros', 1),
 	('02', 'Sabana Iglesia', 1),
-	('03', 'Villa BisonÛ (Navarrete)', 1),
-	('04', 'J·nico', 1),
+	('03', 'Villa Bison√≥ (Navarrete)', 1),
+	('04', 'J√°nico', 1),
 	('05', 'Licey al Medio', 1),
-	('06', 'San JosÈ de las Matas', 1),
+	('06', 'San Jos√© de las Matas', 1),
 	('07', 'Tamboril', 1),
-	('08', 'Villa Gonz·lez', 1),
-	('09', 'PuÒal', 1),
+	('08', 'Villa Gonz√°lez', 1),
+	('09', 'Pu√±al', 1),
 	('99', 'Multimunicipal', 1),
 	-- Municipios de la provincia Puerto Plata
 	('01', 'San Felipe de Puerto Plata', 2),
@@ -138,64 +138,64 @@ VALUES
 	('03', 'Guananico', 2),
 	('04', 'Imbert', 2),
 	('05', 'Los Hidalgos', 2),
-	('06', 'LuperÛn', 2),
-	('07', 'Sos˙a', 2),
+	('06', 'Luper√≥n', 2),
+	('07', 'Sos√∫a', 2),
 	('08', 'Villa Isabela', 2),
 	('09', 'Villa Montellano', 2),
 	('99', 'Multimunicipal', 2),
 	-- Municipios de la provincia Espaillat
 	('01', 'Moca', 3),
-	('02', 'Cayetano GermosÈn', 3),
-	('03', 'Gaspar Hern·ndez', 3),
+	('02', 'Cayetano Germos√©n', 3),
+	('03', 'Gaspar Hern√°ndez', 3),
 	('04', 'Jamao al Norte', 3),
 	('99', 'Multimunicipal', 3),
 	('99', 'Multimunicipal', 5),
-	-- RegiÛn Cibao Sur
-	-- Municipios de la provincia ConcepciÛn de La Vega
+	-- Regi√≥n Cibao Sur
+	-- Municipios de la provincia Concepci√≥n de La Vega
 	('01', 'La Vega', 6),
 	('02', 'Constanza', 6),
 	('03', 'Jarabacoa', 6),
 	('04', 'Jima Abajo', 6),
 	('99', 'Multimunicipal', 6),
-	-- Municipios de la provincia MonseÒor Nouel
+	-- Municipios de la provincia Monse√±or Nouel
 	('01', 'Bonao', 7),
-	('02', 'MaimÛn', 7),
+	('02', 'Maim√≥n', 7),
 	('03', 'Piedra Blanca', 7),
 	('99', 'Multimunicipal', 7),
-	-- Municipios de la provincia S·nchez RamÌrez
-	('01', 'CotuÌ', 8),
+	-- Municipios de la provincia S√°nchez Ram√≠rez
+	('01', 'Cotu√≠', 8),
 	('02', 'Cevicos', 8),
 	('03', 'La Mata', 8),
 	('99', 'Multimunicipal', 8),
 	('99', 'Multimunicipal', 10),
-	-- RegiÛn Cibao Nordeste
+	-- Regi√≥n Cibao Nordeste
 	-- Municipios de la provincia Duarte
-	('01', 'San Fco. de MacorÌs', 11),
+	('01', 'San Fco. de Macor√≠s', 11),
 	('02', 'Arenoso', 11),
 	('03', 'Castillo', 11),
 	('04', 'Hostos', 11),
 	('05', 'Pimentel', 11),
 	('06', 'Villa Riva', 11),
-	('07', 'Las Gu·ranas', 11),
+	('07', 'Las Gu√°ranas', 11),
 	('99', 'Multimunicipal', 11),
 	-- Municipios de la provincia Hermanas Mirabal
 	('01', 'Salcedo', 12),
 	('02', 'Tenares', 12),
 	('03', 'Villa Tapia', 12),
 	('99', 'Multimunicipal', 12),
-	-- Municipios de la provincia MarÌa Trinidad S·nchez
+	-- Municipios de la provincia Mar√≠a Trinidad S√°nchez
 	('01', 'Nagua', 13),
 	('02', 'Cabrera', 13),
 	('03', 'El Factor', 13),
-	('03', 'RÌo San Juan', 13),
+	('03', 'R√≠o San Juan', 13),
 	('99', 'Multimunicipal', 13),
-	-- Municipios de la provincia Saman·
-	('01', 'Santa B·rbara de Saman·', 14),
-	('02', 'S·nchez', 14),
+	-- Municipios de la provincia Saman√°
+	('01', 'Santa B√°rbara de Saman√°', 14),
+	('02', 'S√°nchez', 14),
 	('03', 'Las Terrenas', 14),
 	('99', 'Multimunicipal', 14),
 	('99', 'Multimunicipal', 16),
-	-- RegiÛn Cibao Noroeste
+	-- Regi√≥n Cibao Noroeste
 	-- Municipios de la provincia Valverde
 	('01', 'Santa Cruz de Mao', 17),
 	('02', 'Esperanza', 17),
@@ -203,28 +203,28 @@ VALUES
 	('99', 'Multimunicipal', 17),
 	-- Municipios de la provincia Santiago Rodriguez
 	('01', 'San Ignacio de Sabaneta', 18),
-	('02', 'Villa los Alm·cigos', 18),
-	('03', 'MonciÛn', 18),
+	('02', 'Villa los Alm√°cigos', 18),
+	('03', 'Monci√≥n', 18),
 	('99', 'Multimunicipal', 18),
 	-- Municipios de la provincia Montecristi
 	('01', 'San Fernando de Montecristi', 19),
-	('02', 'CastaÒuelas', 19),
-	('03', 'GuayubÌn', 19),
+	('02', 'Casta√±uelas', 19),
+	('03', 'Guayub√≠n', 19),
 	('04', 'Las Matas de Santa Cruz', 19),
 	('05', 'Pepillo Salcedo', 19),
-	('06', 'Villa V·squez', 19),
+	('06', 'Villa V√°squez', 19),
 	('99', 'Multimunicipal', 19),
-	-- Municipios de la provincia DajabÛn
-	('01', 'DajabÛn', 20),
+	-- Municipios de la provincia Dajab√≥n
+	('01', 'Dajab√≥n', 20),
 	('02', 'Loma de Cabrera', 20),
-	('03', 'RestauraciÛn', 20),
+	('03', 'Restauraci√≥n', 20),
 	('04', 'Partido', 20),
 	('05', 'El Pino', 20),
 	('99', 'Multimunicipal', 20),
 	('99', 'Multimunicipal', 22),
-	-- RegiÛn Valdesia
-	-- Municipios de la provincia San CristÛbal
-	('01', 'San CristÛbal', 23),
+	-- Regi√≥n Valdesia
+	-- Municipios de la provincia San Crist√≥bal
+	('01', 'San Crist√≥bal', 23),
 	('02', 'Bajos de Haina', 23),
 	('03', 'Los Cacaos', 23),
 	('04', 'Cambita Garabitos', 23),
@@ -234,11 +234,11 @@ VALUES
 	('08', 'Villa Altagracia', 23),
 	('99', 'Multimunicipal', 23),
 	-- Municipios de la provincia Peravia
-	('01', 'BanÌ', 24),
+	('01', 'Ban√≠', 24),
 	('02', 'Nizao', 24),
 	('99', 'Multimunicipal', 24),       
-	-- Municipios de la provincia San JosÈ de Ocoa
-	('01', 'San JosÈ de Ocoa', 25),
+	-- Municipios de la provincia San Jos√© de Ocoa
+	('01', 'San Jos√© de Ocoa', 25),
 	('02', 'Sabana Larga', 25),
 	('03', 'Rancho Arriba', 25),
 	('99', 'Multimunicipal', 25),     
@@ -250,29 +250,29 @@ VALUES
 	('05', 'Padre Las Casas', 26),
 	('06', 'Peralta', 26),
 	('07', 'Sabana Yegua', 26),
-	('08', 'T·bara Arriba', 26),
-	('09', 'EstebanÌa', 26),
+	('08', 'T√°bara Arriba', 26),
+	('09', 'Esteban√≠a', 26),
 	('10', 'Pueblo Viejo', 26),
 	('99', 'Multimunicipal', 26),
 	('99', 'Multimunicipal', 28),
-	-- RegiÛn Enriquillo
+	-- Regi√≥n Enriquillo
 	-- Municipios de la provincia Barahona
 	('01', 'Santa Cruz de Barahona', 29),
 	('02', 'Cabral', 29),
 	('03', 'Enriquillo', 29),
 	('04', 'Las Salinas', 29),
-	('05', 'ParaÌso', 29),
+	('05', 'Para√≠so', 29),
 	('06', 'Polo', 29),
 	('07', 'Vicente Noble', 29),
-	('08', 'El PeÒÛn', 29),
-	('09', 'FundaciÛn', 29),
-	('10', 'La CiÈnaga', 29),
+	('08', 'El Pe√±√≥n', 29),
+	('09', 'Fundaci√≥n', 29),
+	('10', 'La Ci√©naga', 29),
 	('11', 'Jaquimeyes', 29),
 	('99', 'Multimunicipal', 29),
 	-- Municipios de la provincia Bahoruco
 	('01', 'Neyba', 30),
-	('02', 'Galv·n', 30),
-	('03', 'Los RÌos', 30),
+	('02', 'Galv√°n', 30),
+	('03', 'Los R√≠os', 30),
 	('04', 'Tamayo', 30),
 	('05', 'Villa Jaragua', 30),
 	('99', 'Multimunicipal', 30),
@@ -281,40 +281,40 @@ VALUES
 	('02', 'Oviedo', 31),
 	('99', 'Multimunicipal', 31),
 	-- Municipios de la provincia Independencia
-	('01', 'JimanÌ', 32),
-	('02', 'DuvergÈ', 32),
+	('01', 'Jiman√≠', 32),
+	('02', 'Duverg√©', 32),
 	('03', 'La Descubierta', 32),
 	('04', 'Mella', 32),
-	('05', 'Postrer RÌo', 32),
-	('06', 'CristÛbal', 32),
+	('05', 'Postrer R√≠o', 32),
+	('06', 'Crist√≥bal', 32),
 	('99', 'Multimunicipal', 32),
 	('99', 'Multimunicipal', 34),
-	-- RegiÛn El Valle
+	-- Regi√≥n El Valle
 	-- Municipios de la provincia San Juan
 	('01', 'San Juan de la Maguana', 35),
 	('02', 'Bohechio', 35),
 	('03', 'El Cercado', 35),
 	('04', 'Juan de Herrera', 35),
-	('05', 'Las Matas de Farf·n', 35),
+	('05', 'Las Matas de Farf√°n', 35),
 	('06', 'Vallejuelo', 35),
 	('99', 'Multimunicipal', 35),
-	-- Municipios de la provincia ElÌas PiÒa
+	-- Municipios de la provincia El√≠as Pi√±a
 	('01', 'Comendador', 36),
-	('02', 'B·nica', 36),
+	('02', 'B√°nica', 36),
 	('03', 'El Llano', 36),
 	('04', 'Hondo Valle', 36),
 	('05', 'Pedro Santana', 36),
 	('06', 'Juan Santiago', 36),
 	('99', 'Multimunicipal', 36),
 	('99', 'Multimunicipal', 38),
-	-- RegiÛn Yuma
+	-- Regi√≥n Yuma
 	-- Municipios de la provincia La Romana
 	('01', 'La Romana', 39),
 	('02', 'Guaymate', 39),
 	('03', 'Villa Hermosa', 39),
 	('99', 'Multimunicipal', 39),
 	-- Municipios de la provincia La Altagracia
-	('01', 'SalvalÈon de Hig¸ey', 40),
+	('01', 'Salval√©on de Hig√ºey', 40),
 	('02', 'San Rafael del Yuma', 40),
 	('99', 'Multimunicipal', 40),
 	-- Municipios de la provincia El Seibo
@@ -322,11 +322,11 @@ VALUES
 	('02', 'Miches', 41),
 	('99', 'Multimunicipal', 41),
 	('99', 'Multimunicipal', 43),
-	-- RegiÛn Higuamo
-	-- Municipios de la provincia San Pedro de MacorÌs
-	('01', 'San Pedro de MacorÌs', 44),
-	('02', 'San JosÈ de los Llanos', 44),
-	('03', 'RamÛn Santana', 44),
+	-- Regi√≥n Higuamo
+	-- Municipios de la provincia San Pedro de Macor√≠s
+	('01', 'San Pedro de Macor√≠s', 44),
+	('02', 'San Jos√© de los Llanos', 44),
+	('03', 'Ram√≥n Santana', 44),
 	('04', 'Consuelo', 44),
 	('05', 'Quisqueya', 44),
 	('06', 'Guayacanes', 44),
@@ -339,12 +339,12 @@ VALUES
 	-- Municipios de la provincia Monte Plata
 	('01', 'Monte Plata', 46),
 	('02', 'Bayaguana', 46),
-	('03', 'Sabana Grande de Boy·', 46),
-	('04', 'Yamas·', 46),
+	('03', 'Sabana Grande de Boy√°', 46),
+	('04', 'Yamas√°', 46),
 	('05', 'Peralvillo', 46),
 	('99', 'Multimunicipal', 46),
 	('99', 'Multimunicipal', 48),
-	-- RegiÛn Ozama o Metropolitana
+	-- Regi√≥n Ozama o Metropolitana
 	-- Municipios de la provincia Distrito Nacional
 	('01', 'Distrito Nacional', 49),
 	-- Municipios de la provincia Santo Domingo
@@ -366,9 +366,9 @@ GO
 CREATE TABLE [dbo].[DistritosMunicipales]
 (
 	[DistritoMunicipalID]	tinyint			PRIMARY KEY	IDENTITY(1, 1),
-	[Codigo]				varchar(3)		NOT NULL,
-	[Denominacion]			varchar(64)		NOT NULL,
-	[MunicipioID]			tinyint			NOT NULL
+	[Codigo]		varchar(3)		NOT NULL,
+	[Denominacion]		varchar(64)		NOT NULL,
+	[MunicipioID]		tinyint			NOT NULL
 
 	CONSTRAINT FK_DistritosMunicipales_Municipios_DistritoMunicipalID FOREIGN KEY ([MunicipioID]) REFERENCES [Municipios] ([MunicipioID])
 );
@@ -378,61 +378,61 @@ INSERT INTO [dbo].[DistritosMunicipales]
 VALUES
 
 	-- Distritos del Municipio Santiago de los Caballeros
-	('01', 'Pedro GarcÌa', 1),
+	('01', 'Pedro Garc√≠a', 1),
 	('02', 'Baitoa', 1),
 	('03', 'La Canela', 1),
 	('04', 'San Francisco de Jacagua', 1),
 	('05', 'Hato del Yaque', 1),
-	-- Distritos del Municipio J·nico
+	-- Distritos del Municipio J√°nico
 	('01', 'Juncalito', 4),
 	('02', 'El Caimito', 4),
 	-- Distritos del Municipio Licey al Medio
 	('01', 'Las Palomas', 5),
-	-- Distritos del Municipio San JosÈ de las Matas
+	-- Distritos del Municipio San Jos√© de las Matas
 	('01', 'El Rubio', 6),
 	('02', 'La Cuesta', 6),
 	('03', 'Las Placetas', 6),
 	-- Distritos del Municipio Tamboril
 	('01', 'Canca la Piedra', 7),
-	-- Distritos del Municipio Villa Gonz·lez
-	('01', 'El LimÛn', 8),
+	-- Distritos del Municipio Villa Gonz√°lez
+	('01', 'El Lim√≥n', 8),
 	('02', 'Palmar Arriba', 8),
-	-- Distritos del Municipio PuÒal
+	-- Distritos del Municipio Pu√±al
 	('01', 'Guayabal', 9),
 	('02', 'Canabacoa', 9),
 	-- Distritos del Municipio San Felipe de Puerto Plata
-	('01', 'Y·sica Arriba', 11),
-	('02', 'MaimÛn', 11),
+	('01', 'Y√°sica Arriba', 11),
+	('02', 'Maim√≥n', 11),
 	-- Distritos del Municipio Altamira
-	('01', 'RÌo Grande', 12),
+	('01', 'R√≠o Grande', 12),
 	-- Distritos del Los Hidalgos
 	('01', 'Navas', 15),
-	-- Distritos del Municipio LuperÛn
+	-- Distritos del Municipio Luper√≥n
 	('01', 'La Isabela', 16),
 	('02', 'Belloso', 16),
-	('03', 'El Estrecho de LuperÛn Omar Bross', 16),
-	-- Distritos del Municipio Sos˙a
+	('03', 'El Estrecho de Luper√≥n Omar Bross', 16),
+	-- Distritos del Municipio Sos√∫a
 	('01', 'Cabarete', 17),
-	('02', 'Sabaneta de Y·sica', 17),
+	('02', 'Sabaneta de Y√°sica', 17),
 	-- Distritos del Municipio Villa Isabela
 	('01', 'Estero Hondo', 18),
 	('02', 'La Jaiba', 18),
 	('03', 'Gualete', 18),
 	-- Distritos del Municipio Moca
-	('01', 'JosÈ Contreras', 21),
-	('02', 'San VÌctor', 21),
-	('03', 'Juan LÛpez', 21),
+	('01', 'Jos√© Contreras', 21),
+	('02', 'San V√≠ctor', 21),
+	('03', 'Juan L√≥pez', 21),
 	('04', 'Las Lagunas Abajo', 21),
 	('05', 'Canca la Reina', 21),
 	('06', 'El Higuerito', 21),
 	('07', 'La Ortega', 21),
 	('08', 'Monte de la Jagua', 21),
-	-- Distritos del Municipio Gaspar Hern·ndez
+	-- Distritos del Municipio Gaspar Hern√°ndez
 	('01', 'Veragua', 23),
 	('02', 'Joba Arriba', 23),
 	('03', 'Villa Magante', 23),
 	-- Distritos del Municipio La Vega
-	('01', 'RÌo Verde Arriba', 27),
+	('01', 'R√≠o Verde Arriba', 27),
 	('02', 'El Ranchito', 27),
 	-- Distritos del Municipio Constanza
 	('01', 'Tireo Arriba', 28),
@@ -441,7 +441,7 @@ VALUES
 	('01', 'Buena Vista', 29),
 	('02', 'Manabao', 29),
 	-- Distritos del Municipio Jima Abajo
-	('01', 'RincÛn', 30),
+	('01', 'Rinc√≥n', 30),
 	-- Distritos del Municipio Bonao
 	('01', 'Sabana del Puerto', 32),
 	('02', 'Juma Bejucal', 32),
@@ -450,10 +450,10 @@ VALUES
 	('05', 'La Salvia- Los Quemados', 32),
 	-- Distritos del Municipio Piedra Blanca
 	('01', 'Villa de Sonador', 34),
-	('02', 'Juan Adri·n', 34),
-	-- Distritos del Municipio CotuÌ
+	('02', 'Juan Adri√°n', 34),
+	-- Distritos del Municipio Cotu√≠
 	('01', 'Platanal', 36),
-	('02', 'Quita SueÒo', 36),
+	('02', 'Quita Sue√±o', 36),
 	('03', 'Comedero Arriba', 36),
 	('04', 'Caballero', 36),
 	-- Distritos del Municipio Cevicos
@@ -462,11 +462,11 @@ VALUES
 	('01', 'La Bija', 38),
 	('02', 'Angelina', 38),
 	('03', 'Hernando Alonso', 38),
-	-- Distritos del Municipio San Fco. de MacorÌs
-	('01', 'La PeÒa', 41),
-	('02', 'CenovÌ', 41),
+	-- Distritos del Municipio San Fco. de Macor√≠s
+	('01', 'La Pe√±a', 41),
+	('02', 'Cenov√≠', 41),
 	('03', 'Jaya', 41),
-	('04', 'Don Antonio Guzm·n Fern·ndez', 41),
+	('04', 'Don Antonio Guzm√°n Fern√°ndez', 41),
 	-- Distritos del Municipio Arenoso
 	('01', 'Las Coles', 42),
 	('02', 'El Aguacate', 42),
@@ -475,14 +475,14 @@ VALUES
 	-- Distritos del Municipio Villa Riva
 	('01', 'Agua Santa del Yuna', 46),
 	('02', 'Cristo Rey de Guaraguao', 46),
-	('03', 'Las T·ranas', 46),
+	('03', 'Las T√°ranas', 46),
 	('04', 'Barraquito', 46),
 	-- Distritos del Municipio Salcedo
 	('01', 'Jamao Afuera', 49),
 	-- Distritos del Municipio Tenares
 	('01', 'Blanco', 50),
 	-- Distritos del Municipio Nagua
-	('01', 'San JosÈ de Matanzas', 53),
+	('01', 'San Jos√© de Matanzas', 53),
 	('02', 'Las Gordas', 53),
 	('03', 'Arroyo al Medio', 53),
 	-- Distritos del Municipio Cabrera
@@ -490,37 +490,37 @@ VALUES
 	('02', 'La Entrada', 54),
 	-- Distritos del Municipio El Factor
 	('01', 'El Pozo', 55),
-	-- Distritos del Municipio Santa B·rbara de Saman·
-	('01', 'El LimÛn', 58),
+	-- Distritos del Municipio Santa B√°rbara de Saman√°
+	('01', 'El Lim√≥n', 58),
 	('02', 'Arroyo Barril', 58),
 	('03', 'Las Galeras', 58),
 	-- Distritos del Municipio Santa Cruz de Mao
-	('01', '¡mina', 63),
+	('01', '√Åmina', 63),
 	('02', 'Guatapanal', 63),
-	('03', 'JaibÛn (Pueblo Nuevo)', 63),
+	('03', 'Jaib√≥n (Pueblo Nuevo)', 63),
 	-- Distritos del Municipio Esperanza
 	('01', 'Maizal', 64),
-	('02', 'JicomÈ', 64),
+	('02', 'Jicom√©', 64),
 	('03', 'Boca de Mao', 64),
 	('04', 'Paradero', 64),
 	-- Distritos del Municipio Laguna Salada
-	('01', 'JaibÛn (Laguna Salada)', 65),
+	('01', 'Jaib√≥n (Laguna Salada)', 65),
 	('02', 'La Caya', 65),
 	('03', 'Cruce de Guayacanes', 65),
-	-- Distritos del Municipio CastaÒuelas
+	-- Distritos del Municipio Casta√±uelas
 	('01', 'Palo Verde', 72),
-	-- Distritos del Municipio GuayubÌn
+	-- Distritos del Municipio Guayub√≠n
 	('01', 'Hatillo Palma', 73),
 	('02', 'Villa Elisa', 73),
-	('03', 'Cana ChapetÛn', 73),
-	-- Distritos del Municipio DajabÛn
-	('01', 'CaÒongo', 78),
+	('03', 'Cana Chapet√≥n', 73),
+	-- Distritos del Municipio Dajab√≥n
+	('01', 'Ca√±ongo', 78),
 	-- Distritos del Municipio Loma de Cabrera
 	('01', 'Capotillo', 79),
 	('02', 'Santiago de la Cruz', 79),
 	-- Distritos del Municipio El Pino
 	('01', 'Manuel Bueno', 82),
-	-- Distritos del Municipio San CristÛbal
+	-- Distritos del Municipio San Crist√≥bal
 	('01', 'Hato Damas', 85),
 	-- Distritos del Municipio Bajos de Haina
 	('01', 'El Carril', 86),
@@ -529,31 +529,31 @@ VALUES
 	-- Distritos del Municipio Villa Altagracia
 	('01', 'Medina', 92),
 	('02', 'La Cuchilla', 92),
-	('03', 'San JosÈ del Puerto', 92),
-	-- Distritos del Municipio BanÌ
+	('03', 'San Jos√© del Puerto', 92),
+	-- Distritos del Municipio Ban√≠
 	('01', 'Matanzas', 94),
-	('02', 'Villa FundaciÛn', 94),
+	('02', 'Villa Fundaci√≥n', 94),
 	('03', 'Sabana Buey', 94),
 	('04', 'Paya', 94),
 	('05', 'Villa Sombrero', 94),
-	('06', 'El CarretÛn', 94),
+	('06', 'El Carret√≥n', 94),
 	('07', 'Catalina', 94),
-	('08', 'Las BarÌas', 94),
+	('08', 'Las Bar√≠as', 94),
 	('09', 'El Limonal', 94),
 	-- Distritos del Municipio Nizao
 	('01', 'Pizarrete', 95),
 	('02', 'Santana', 95),
-	-- Distritos del Municipio San JosÈ de Ocoa
-	('01', 'La CiÈnaga', 97),
+	-- Distritos del Municipio San Jos√© de Ocoa
+	('01', 'La Ci√©naga', 97),
 	('02', 'El Pinar', 97),
 	('03', 'Nizao Las Auyamas', 97),
 	('04', 'Naranjal', 97),
 	-- Distritos del Municipio Azua de Compostela
 	('01', 'Barro Arriba', 101),
-	('02', 'Las BarÌas - La Estancia', 101),
+	('02', 'Las Bar√≠as - La Estancia', 101),
 	('03', 'Los Jovillos', 101),
 	('04', 'Barreras', 101),
-	('05', 'DoÒa Emma Balaguer viuda Vallejo', 101),
+	('05', 'Do√±a Emma Balaguer viuda Vallejo', 101),
 	('06', 'Las Lomas', 101),
 	('07', 'Clavellina', 101),
 	('08', 'Puerto Viejo', 101),
@@ -561,45 +561,45 @@ VALUES
 	('01', 'Palmar de Ocoa', 103),
 	-- Distritos del Municipio Las Yayas de Viajama
 	('01', 'Villarpando', 104),
-	('02', 'Hato Nuevo CortÈs', 104),
+	('02', 'Hato Nuevo Cort√©s', 104),
 	-- Distritos del Municipio Padre Las Casas
 	('01', 'La Siembra', 105),
 	('02', 'Las Lagunas', 105),
 	('03', 'Monte Bonito', 105),
-	('04', 'Los FrÌos', 105),
+	('04', 'Los Fr√≠os', 105),
 	-- Distritos del Municipio Sabana Yegua
 	('01', 'Proyecto 04', 107),
 	('02', 'Ganadero', 107),
 	('03', 'Proyecto 02-C', 107),
-	-- Distritos del Municipio T·bara Arriba
-	('01', 'Amiama GÛmez', 108),
+	-- Distritos del Municipio T√°bara Arriba
+	('01', 'Amiama G√≥mez', 108),
 	('02', 'Los Toros', 108),
-	('03', 'T·bara Abajo', 108),
+	('03', 'T√°bara Abajo', 108),
 	-- Distritos del Municipio Pueblo Viejo
 	('01', 'El Rosario', 110),
 	-- Distritos del Municipio Santa Cruz de Barahona
-	('01', 'El CachÛn', 113),
-	('02', 'La Gu·zara', 113),
+	('01', 'El Cach√≥n', 113),
+	('02', 'La Gu√°zara', 113),
 	('03', 'Villa Central', 113),
 	-- Distritos del Municipio Enriquillo
 	('01', 'Arroyo Dulce', 115),
-	-- Distritos del Municipio ParaÌso
+	-- Distritos del Municipio Para√≠so
 	('01', 'Los Patos', 117),
 	-- Distritos del Municipio Vicente Noble
 	('01', 'Fondo Negro', 119),
 	('02', 'Canoa', 119),
 	('03', 'Quita Coraza', 119),
-	-- Distritos del Municipio FundaciÛn
-	('01', 'PescaderÌa', 121),
-	-- Distritos del Municipio La CiÈnaga
+	-- Distritos del Municipio Fundaci√≥n
+	('01', 'Pescader√≠a', 121),
+	-- Distritos del Municipio La Ci√©naga
 	('01', 'Bahoruco', 122),
 	-- Distritos del Municipio Jaquimeyes
 	('01', 'Palo Alto', 123),
 	-- Distritos del Municipio Neyba
 	('01', 'El Palmar', 125),
-	-- Distritos del Municipio Galv·n
+	-- Distritos del Municipio Galv√°n
 	('01', 'El Salado', 126),
-	-- Distritos del Municipio Los RÌos
+	-- Distritos del Municipio Los R√≠os
 	('01', 'Las Clavellinas', 127),
 	-- Distritos del Municipio Tamayo
 	('01', 'Uvilla', 128),
@@ -607,19 +607,19 @@ VALUES
 	('03', 'Monserrat', 128),
 	('04', 'Cabeza de Toro', 128),
 	('05', 'Mena', 128),
-	('06', 'Santa B·rbara El 06', 128),
+	('06', 'Santa B√°rbara El 06', 128),
 	-- Distritos del Municipio Pedernales
-	('01', 'JosÈ Fco. PeÒa GÛmez', 131),
+	('01', 'Jos√© Fco. Pe√±a G√≥mez', 131),
 	-- Distritos del Municipio Oviedo
 	('01', 'Juancho', 132),
-	-- Distritos del Municipio JimanÌ
-	('01', 'El LimÛn', 134),
-	('02', 'Boca de CachÛn', 134),
-	-- Distritos del Municipio DuvergÈ
+	-- Distritos del Municipio Jiman√≠
+	('01', 'El Lim√≥n', 134),
+	('02', 'Boca de Cach√≥n', 134),
+	-- Distritos del Municipio Duverg√©
 	('01', 'Vengan a ver', 135),
-	-- Distritos del Municipio Postrer RÌo
+	-- Distritos del Municipio Postrer R√≠o
 	('01', 'Guayabal', 138),
-	-- Distritos del Municipio CristÛbal
+	-- Distritos del Municipio Crist√≥bal
 	('01', 'La Colonia', 139),
 	('02', 'Batey 08', 139),
 	-- Distritos del Municipio San Juan de la Maguana
@@ -630,7 +630,7 @@ VALUES
 	('05', 'Hato del Padre', 142),
 	('06', 'La Jagua', 142),
 	('07', 'Guanito', 142),
-	('08', 'Las Charcas de MarÌa Nova', 142),
+	('08', 'Las Charcas de Mar√≠a Nova', 142),
 	('09', 'Las Maguanas, Hato Nuevo', 142),
 	('10', 'Las Zanjas', 142),
 	-- Distritos del Municipio Bohechio
@@ -640,8 +640,8 @@ VALUES
 	('01', 'Nuevo Brasil', 144),
 	('02', 'Batista', 144),
 	-- Distritos del Municipio Juan de Herrera
-	('01', 'JÌnova', 145),
-	-- Distritos del Municipio Las Matas de Farf·n
+	('01', 'J√≠nova', 145),
+	-- Distritos del Municipio Las Matas de Farf√°n
 	('01', 'Matayaya', 146),
 	('02', 'Carrera de Yeguas', 146),
 	-- Distritos del Municipio Vallejuelo
@@ -649,34 +649,34 @@ VALUES
 	-- Distritos del Municipio Comendador
 	('01', 'Sabana Larga', 149),
 	('02', 'Guayabo', 149),
-	-- Distritos del Municipio B·nica
+	-- Distritos del Municipio B√°nica
 	('01', 'Sabana Cruz', 150),
-	('02', 'Sabana Hig¸ero', 150),
+	('02', 'Sabana Hig√ºero', 150),
 	-- Distritos del Municipio El Llano
 	('01', 'Guanito', 151),
 	-- Distritos del Municipio Hondo Valle
 	('01', 'Rancho de la Guardia', 152),
 	-- Distritos del Municipio Pedro Santana
-	('01', 'RÌo Limpio', 153),
+	('01', 'R√≠o Limpio', 153),
 	-- Distritos del Municipio La Romana
 	('01', 'Caleta', 157),
 	-- Distritos del Municipio Villa Hermosa
 	('01', 'Cumayasa', 159),
-	-- Distritos del Municipio SalvalÈon de Hig¸ey
-	('01', 'Laguna NisibÛn', 161),
+	-- Distritos del Municipio Salval√©on de Hig√ºey
+	('01', 'Laguna Nisib√≥n', 161),
 	('02', 'La Otra Banda', 161),
-	('03', 'VerÛn Punta Cana', 161),
+	('03', 'Ver√≥n Punta Cana', 161),
 	-- Distritos del Municipio San Rafael del Yuma
 	('01', 'Boca de Yuma', 162),
-	('02', 'BayahÌbe', 162),
+	('02', 'Bayah√≠be', 162),
 	-- Distritos del Municipio Santa Cruz del Seibo
-	('01', 'Villa de Pedro S·nchez', 164),
+	('01', 'Villa de Pedro S√°nchez', 164),
 	('02', 'San Francisco Vicentillo', 164),
-	('03', 'Santa LucÌa', 164),
+	('03', 'Santa Luc√≠a', 164),
 	-- Distritos del Municipio Miches
 	('01', 'El Cedro (Jobero)', 165),
 	('02', 'Gina', 165),
-	-- Distritos del Municipio San JosÈ de los Llanos
+	-- Distritos del Municipio San Jos√© de los Llanos
 	('01', 'El Puerto', 169),
 	('02', 'Gautier', 169),
 	-- Distritos del Municipio Hato Mayor del Rey
@@ -684,17 +684,17 @@ VALUES
 	('02', 'Mata Palacio', 175),
 	('03', 'Guayabo Dulce', 175),
 	-- Distritos del Municipio Sabana de la Mar
-	('01', 'Las CaÒitas, Elupina Cordero', 176),
+	('01', 'Las Ca√±itas, Elupina Cordero', 176),
 	-- Distritos del Municipio Monte Plata
 	('01', 'Don Juan', 179),
 	('02', 'Chirino', 179),
-	('03', 'Boy·', 179),
-	-- Distritos del Municipio Sabana Grande de Boy·
+	('03', 'Boy√°', 179),
+	-- Distritos del Municipio Sabana Grande de Boy√°
 	('01', 'Gonzalo', 181),
 	('02', 'Majagual', 181),
-	-- Distritos del Municipio Yamas·
+	-- Distritos del Municipio Yamas√°
 	('01', 'Los Botados', 182),
-	('02', 'Mam· TingÛ', 182),
+	('02', 'Mam√° Ting√≥', 182),
 	-- Distritos del Municipio Santo Domingo Este
 	('01', 'San Luis', 187),
 	-- Distritos del Municipio Santo Domingo Norte
@@ -707,6 +707,6 @@ VALUES
 	('01', 'Pantoja', 192),
 	('02', 'Palmarejo - Villa Linda', 192),
 	-- Distritos del Municipio Pedro Brand
-	('01', 'La Gu·yiga', 193),
+	('01', 'La Gu√°yiga', 193),
 	('02', 'La Cuaba', 193);
 GO
