@@ -1,0 +1,213 @@
+[
+    {
+		"MonedaID": 1,
+		"CodigoMoneda": 15,
+		"SiglaMoneda": "VEB",
+		"CodigoAlfabetico": "VEB",
+		"Descripcion": "BOLÍVARES"
+	}, {
+		"MonedaID": 2,
+		"CodigoMoneda": 21,
+		"SiglaMoneda": "BV$",
+		"CodigoAlfabetico": "BV$",
+		"Descripcion": "BOLÍVARES VENEZUELA EQUIV. US$"
+	}, {
+		"MonedaID": 3,
+		"CodigoMoneda": 17,
+		"SiglaMoneda": "BRC",
+		"CodigoAlfabetico": "BRC",
+		"Descripcion": "BRASIL, REAL"
+	}, {
+		"MonedaID": 4,
+		"CodigoMoneda": 20,
+		"SiglaMoneda": "ATS",
+		"CodigoAlfabetico": "ATS",
+		"Descripcion": "CHELINES AUSTRIACOS"
+	}, {
+		"MonedaID": 5,
+		"CodigoMoneda": 14,
+		"SiglaMoneda": "SEK",
+		"CodigoAlfabetico": "SEK",
+		"Descripcion": "CORONAS SUECAS"
+	}, {
+		"MonedaID": 6,
+		"CodigoMoneda": 22,
+		"SiglaMoneda": "CB$",
+		"CodigoAlfabetico": "CB$",
+		"Descripcion": "CRUZEIRO BRAZIL EQUIV. US$"
+	}, {
+		"MonedaID": 7,
+		"CodigoMoneda": 13,
+		"SiglaMoneda": "SDR",
+		"CodigoAlfabetico": "SDR",
+		"Descripcion": "DERECHOS ESPECIALES DE GIRO"
+	}, {
+		"MonedaID": 8,
+		"CodigoMoneda": 33,
+		"SiglaMoneda": "DEG",
+		"CodigoAlfabetico": "DEU",
+		"Descripcion": "DEU (Derechos especiales de giro equivalente a Dólares)"
+	}, {
+		"MonedaID": 9,
+		"CodigoMoneda": 18,
+		"SiglaMoneda": "DKK",
+		"CodigoAlfabetico": "DKK",
+		"Descripcion": "DINAMARCA, CORONA DANESA"
+	}, {
+		"MonedaID": 10,
+		"CodigoMoneda": 28,
+		"SiglaMoneda": "YUD",
+		"CodigoAlfabetico": "YUD",
+		"Descripcion": "DINARES YUGOSLAVOS"
+	}, {
+		"MonedaID": 11,
+		"CodigoMoneda": 5,
+		"SiglaMoneda": "CAD",
+		"CodigoAlfabetico": "CAD",
+		"Descripcion": "DÓLARES CANADIENSES"
+	}, {
+		"MonedaID": 12,
+		"CodigoMoneda": 2,
+		"SiglaMoneda": "USD",
+		"CodigoAlfabetico": "USD",
+		"Descripcion": "DÓLARES ESTADOUNIDENSES"
+	}, {
+		"MonedaID": 13,
+		"CodigoMoneda": 23,
+		"SiglaMoneda": "GRD",
+		"CodigoAlfabetico": "GRD",
+		"Descripcion": "DRACMAS GRIEGAS"
+	}, {
+		"MonedaID": 14,
+		"CodigoMoneda": 3,
+		"SiglaMoneda": "EUR",
+		"CodigoAlfabetico": "EUR",
+		"Descripcion": "EUROS"
+	}, {
+		"MonedaID": 15,
+		"CodigoMoneda": 25,
+		"SiglaMoneda": "NLG",
+		"CodigoAlfabetico": "NLG",
+		"Descripcion": "FLORINES NEERLANDESES"
+	}, {
+		"MonedaID": 16,
+		"CodigoMoneda": 4,
+		"SiglaMoneda": "BEF",
+		"CodigoAlfabetico": "BEF",
+		"Descripcion": "FRANCOS BELGAS"
+	}, {
+		"MonedaID": 17,
+		"CodigoMoneda": 9,
+		"SiglaMoneda": "FRF",
+		"CodigoAlfabetico": "FRF",
+		"Descripcion": "FRANCOS FRANCESES"
+	}, {
+		"MonedaID": 18,
+		"CodigoMoneda": 6,
+		"SiglaMoneda": "CHF",
+		"CodigoAlfabetico": "CHF",
+		"Descripcion": "FRANCOS SUIZOS"
+	}, {
+		"MonedaID": 19,
+		"CodigoMoneda": 34,
+		"SiglaMoneda": "KRW",
+		"CodigoAlfabetico": "KRW",
+		"Descripcion": "KRW WON KOREANO"
+	}, {
+		"MonedaID": 20,
+		"CodigoMoneda": 16,
+		"SiglaMoneda": "GBP",
+		"CodigoAlfabetico": "GBP",
+		"Descripcion": "LIBRA ESTERLINA, REINO UNIDO"
+	}, {
+		"MonedaID": 21,
+		"CodigoMoneda": 10,
+		"SiglaMoneda": "ITL",
+		"CodigoAlfabetico": "ITL",
+		"Descripcion": "LIRAS ITALIANAS"
+	}, {
+		"MonedaID": 22,
+		"CodigoMoneda": 7,
+		"SiglaMoneda": "DEM",
+		"CodigoAlfabetico": "DEM",
+		"Descripcion": "MARCOS ALEMANES"
+	}, {
+		"MonedaID": 23,
+		"CodigoMoneda": 19,
+		"SiglaMoneda": "NOK",
+		"CodigoAlfabetico": "NOK",
+		"Descripcion": "NORUEGA, CORONA NORUEGA"
+	}, {
+		"MonedaID": 24,
+		"CodigoMoneda": 8,
+		"SiglaMoneda": "ESP",
+		"CodigoAlfabetico": "ESP",
+		"Descripcion": "PESETAS ESPAÑOLAS"
+	}, {
+		"MonedaID": 25,
+		"CodigoMoneda": 27,
+		"SiglaMoneda": "PA$",
+		"CodigoAlfabetico": "PA$",
+		"Descripcion": "PESOS ARGENTINOS EQUIV. USD$"
+	}, {
+		"MonedaID": 26,
+		"CodigoMoneda": 1,
+		"SiglaMoneda": "RD$",
+		"CodigoAlfabetico": "DOP",
+		"Descripcion": "PESOS DOMINICANOS"
+	}, {
+		"MonedaID": 27,
+		"CodigoMoneda": 12,
+		"SiglaMoneda": "PD$",
+		"CodigoAlfabetico": "PD$",
+		"Descripcion": "PESOS DOMINICANOS EQUIV. US"
+	}, {
+		"MonedaID": 28,
+		"CodigoMoneda": 29,
+		"SiglaMoneda": "MXP",
+		"CodigoAlfabetico": "MXP",
+		"Descripcion": "PESOS MEXICANOS"
+	}, {
+		"MonedaID": 29,
+		"CodigoMoneda": 26,
+		"SiglaMoneda": "PM$",
+		"CodigoAlfabetico": "PM$",
+		"Descripcion": "PESOS MEXICANOS EQUIV. USD$"
+	}, {
+		"MonedaID": 30,
+		"CodigoMoneda": 30,
+		"SiglaMoneda": "UAE",
+		"CodigoAlfabetico": "UAE",
+		"Descripcion": "UAC (Equivalente a euros)"
+	}, {
+		"MonedaID": 31,
+		"CodigoMoneda": 31,
+		"SiglaMoneda": "UAF",
+		"CodigoAlfabetico": "UAF",
+		"Descripcion": "UAC (Equivalente a francos suizos)"
+	}, {
+		"MonedaID": 32,
+		"CodigoMoneda": 32,
+		"SiglaMoneda": "UAJ",
+		"CodigoAlfabetico": "UAJ",
+		"Descripcion": "UAC (Equivalente a yenes)"
+	}, {
+		"MonedaID": 33,
+		"CodigoMoneda": 35,
+		"SiglaMoneda": "UAD",
+		"CodigoAlfabetico": "UAD",
+		"Descripcion": "UAC (equivalente a dólares)"
+	}, {
+		"MonedaID": 34,
+		"CodigoMoneda": 24,
+		"SiglaMoneda": "IDB",
+		"CodigoAlfabetico": "IDB",
+		"Descripcion": "UNIDAD DE CUENTA BID"
+	}, {
+		"MonedaID": 35,
+		"CodigoMoneda": 11,
+		"SiglaMoneda": "JPY",
+		"CodigoAlfabetico": "JPY",
+		"Descripcion": "YENES"
+    }
+]
