@@ -1,0 +1,212 @@
+[
+	{
+		"PaisID": 1,
+		"Codigo": "01",
+		"CodigoSIGADE": "DO",
+		"Nombre": "REPÚBLICA DOMINICANA"
+	},
+	{
+		"PaisID": 2,
+		"Codigo": "02",
+		"CodigoSIGADE": "AR",
+		"Nombre": "ARGENTINA"
+	},
+	{
+		"PaisID": 3,
+		"Codigo": "03",
+		"CodigoSIGADE": "BE",
+		"Nombre": "BÉLGICA"
+	},
+	{
+		"PaisID": 4,
+		"Codigo": "04",
+		"CodigoSIGADE": "BO",
+		"Nombre": "BOLIVIA"
+	},
+	{
+		"PaisID": 5,
+		"Codigo": "05",
+		"CodigoSIGADE": "BR",
+		"Nombre": "BRASIL"
+	},
+	{
+		"PaisID": 6,
+		"Codigo": "06",
+		"CodigoSIGADE": "BS",
+		"Nombre": "BAHAMAS"
+	},
+	{
+		"PaisID": 7,
+		"Codigo": "07",
+		"CodigoSIGADE": "CA",
+		"Nombre": "CANADÁ"
+	},
+	{
+		"PaisID": 8,
+		"Codigo": "08",
+		"CodigoSIGADE": "CH",
+		"Nombre": "SUIZA"
+	},
+	{
+		"PaisID": 9,
+		"Codigo": "09",
+		"CodigoSIGADE": "CL",
+		"Nombre": "CHILE"
+	},
+	{
+		"PaisID": 10,
+		"Codigo": "10",
+		"CodigoSIGADE": "CN",
+		"Nombre": "REP. POPULAR DE CHINA"
+	},
+	{
+		"PaisID": 11,
+		"Codigo": "11",
+		"CodigoSIGADE": "CO",
+		"Nombre": "COLOMBIA"
+	},
+	{
+		"PaisID": 12,
+		"Codigo": "12",
+		"CodigoSIGADE": "CR",
+		"Nombre": "COSTA RICA"
+	},
+	{
+		"PaisID": 13,
+		"Codigo": "13",
+		"CodigoSIGADE": "DE",
+		"Nombre": "REP. FED. DE ALEMANIA"
+	},
+	{
+		"PaisID": 14,
+		"Codigo": "14",
+		"CodigoSIGADE": "DK",
+		"Nombre": "DINAMARCA"
+	},
+	{
+		"PaisID": 15,
+		"Codigo": "15",
+		"CodigoSIGADE": "EC",
+		"Nombre": "ECUADOR"
+	},
+	{
+		"PaisID": 16,
+		"Codigo": "16",
+		"CodigoSIGADE": "ES",
+		"Nombre": "ESPAÑA"
+	},
+	{
+		"PaisID": 17,
+		"Codigo": "17",
+		"CodigoSIGADE": "FR",
+		"Nombre": "FRANCIA"
+	},
+	{
+		"PaisID": 18,
+		"Codigo": "18",
+		"CodigoSIGADE": "GB",
+		"Nombre": "GRAN BRETAÑA"
+	},
+	{
+		"PaisID": 19,
+		"Codigo": "19",
+		"CodigoSIGADE": "IE",
+		"Nombre": "IRLANDA"
+	},
+	{
+		"PaisID": 20,
+		"Codigo": "20",
+		"CodigoSIGADE": "IL",
+		"Nombre": "ISRAEL"
+	},
+	{
+		"PaisID": 21,
+		"Codigo": "21",
+		"CodigoSIGADE": "IT",
+		"Nombre": "ITALIA"
+	},
+	{
+		"PaisID": 22,
+		"Codigo": "22",
+		"CodigoSIGADE": "JP",
+		"Nombre": "JAPON"
+	},
+	{
+		"PaisID": 23,
+		"Codigo": "23",
+		"CodigoSIGADE": "KR",
+		"Nombre": "REPUBLICA DE COREA"
+	},
+	{
+		"PaisID": 24,
+		"Codigo": "24",
+		"CodigoSIGADE": "LU",
+		"Nombre": "LUXEMBURGO"
+	},
+	{
+		"PaisID": 25,
+		"Codigo": "25",
+		"CodigoSIGADE": "MS",
+		"Nombre": "MONTSERRAT"
+	},
+	{
+		"PaisID": 26,
+		"Codigo": "26",
+		"CodigoSIGADE": "MX",
+		"Nombre": "MÉXICO"
+	},
+	{
+		"PaisID": 27,
+		"Codigo": "27",
+		"CodigoSIGADE": "NI",
+		"Nombre": "NICARAGUA"
+	},
+	{
+		"PaisID": 28,
+		"Codigo": "28",
+		"CodigoSIGADE": "NL",
+		"Nombre": "HOLANDA"
+	},
+	{
+		"PaisID": 29,
+		"Codigo": "29",
+		"CodigoSIGADE": "NO",
+		"Nombre": "NORUEGA"
+	},
+	{
+		"PaisID": 30,
+		"Codigo": "30",
+		"CodigoSIGADE": "PA",
+		"Nombre": "PANAMÁ"
+	},
+	{
+		"PaisID": 31,
+		"Codigo": "31",
+		"CodigoSIGADE": "PE",
+		"Nombre": "PERÚ"
+	},
+	{
+		"PaisID": 32,
+		"Codigo": "32",
+		"CodigoSIGADE": "PR",
+		"Nombre": "PUERTO RICO"
+	},
+	{
+		"PaisID": 33,
+		"Codigo": "33",
+		"CodigoSIGADE": "PY",
+		"Nombre": "PARAGUAY"
+	},
+	{
+		"PaisID": 34,
+		"Codigo": "34",
+		"CodigoSIGADE": "SE",
+		"Nombre": "SUECIA"
+	},
+	{
+		"PaisID": 35,
+		"Codigo": "35",
+		"CodigoSIGADE": "SV",
+		"Nombre": "EL SALVADOR"
+	}
+]

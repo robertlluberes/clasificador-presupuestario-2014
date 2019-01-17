@@ -1,0 +1,3391 @@
+[
+	{
+		"RegionID": 1,
+		"Codigo": "01",
+		"Denominacion": "CIBAO NORTE",
+		"Provincias": [
+			{
+				"ProvinciaID": 1,
+				"Codigo": "01",
+				"Denominacion": "Santiago",
+				"RegionID": 1,
+				"Municipios": [
+					{
+						"MunicipioID": 1,
+						"Codigo": "01",
+						"Denominacion": "Santiago de los Caballeros",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 1,
+								"Codigo": "01",
+								"Denominacion": "Pedro García",
+								"MunicipioID": 1
+							},
+							{
+								"DistritoMunicipalID": 2,
+								"Codigo": "02",
+								"Denominacion": "Baitoa",
+								"MunicipioID": 1
+							},
+							{
+								"DistritoMunicipalID": 3,
+								"Codigo": "03",
+								"Denominacion": "La Canela",
+								"MunicipioID": 1
+							},
+							{
+								"DistritoMunicipalID": 4,
+								"Codigo": "04",
+								"Denominacion": "San Francisco de Jacagua",
+								"MunicipioID": 1
+							},
+							{
+								"DistritoMunicipalID": 5,
+								"Codigo": "05",
+								"Denominacion": "Hato del Yaque",
+								"MunicipioID": 1
+							}
+						]
+					},
+					{
+						"MunicipioID": 2,
+						"Codigo": "02",
+						"Denominacion": "Sabana Iglesia",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 3,
+						"Codigo": "03",
+						"Denominacion": "Villa Bisonó (Navarrete)",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 4,
+						"Codigo": "04",
+						"Denominacion": "Jánico",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 6,
+								"Codigo": "01",
+								"Denominacion": "Juncalito",
+								"MunicipioID": 4
+							},
+							{
+								"DistritoMunicipalID": 7,
+								"Codigo": "02",
+								"Denominacion": "El Caimito",
+								"MunicipioID": 4
+							}
+						]
+					},
+					{
+						"MunicipioID": 5,
+						"Codigo": "05",
+						"Denominacion": "Licey al Medio",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 8,
+								"Codigo": "01",
+								"Denominacion": "Las Palomas",
+								"MunicipioID": 5
+							}
+						]
+					},
+					{
+						"MunicipioID": 6,
+						"Codigo": "06",
+						"Denominacion": "San José de las Matas",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 9,
+								"Codigo": "01",
+								"Denominacion": "El Rubio",
+								"MunicipioID": 6
+							},
+							{
+								"DistritoMunicipalID": 10,
+								"Codigo": "02",
+								"Denominacion": "La Cuesta",
+								"MunicipioID": 6
+							},
+							{
+								"DistritoMunicipalID": 11,
+								"Codigo": "03",
+								"Denominacion": "Las Placetas",
+								"MunicipioID": 6
+							}
+						]
+					},
+					{
+						"MunicipioID": 7,
+						"Codigo": "07",
+						"Denominacion": "Tamboril",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 12,
+								"Codigo": "01",
+								"Denominacion": "Canca la Piedra",
+								"MunicipioID": 7
+							}
+						]
+					},
+					{
+						"MunicipioID": 8,
+						"Codigo": "08",
+						"Denominacion": "Villa González",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 13,
+								"Codigo": "01",
+								"Denominacion": "El Limón",
+								"MunicipioID": 8
+							},
+							{
+								"DistritoMunicipalID": 14,
+								"Codigo": "02",
+								"Denominacion": "Palmar Arriba",
+								"MunicipioID": 8
+							}
+						]
+					},
+					{
+						"MunicipioID": 9,
+						"Codigo": "09",
+						"Denominacion": "Puñal",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 15,
+								"Codigo": "01",
+								"Denominacion": "Guayabal",
+								"MunicipioID": 9
+							},
+							{
+								"DistritoMunicipalID": 16,
+								"Codigo": "02",
+								"Denominacion": "Canabacoa",
+								"MunicipioID": 9
+							}
+						]
+					},
+					{
+						"MunicipioID": 10,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 1,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 2,
+				"Codigo": "02",
+				"Denominacion": "Puerto Plata",
+				"RegionID": 1,
+				"Municipios": [
+					{
+						"MunicipioID": 11,
+						"Codigo": "01",
+						"Denominacion": "San Felipe de Puerto Plata",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 17,
+								"Codigo": "01",
+								"Denominacion": "Yásica Arriba",
+								"MunicipioID": 11
+							},
+							{
+								"DistritoMunicipalID": 18,
+								"Codigo": "02",
+								"Denominacion": "Maimón",
+								"MunicipioID": 11
+							}
+						]
+					},
+					{
+						"MunicipioID": 12,
+						"Codigo": "02",
+						"Denominacion": "Altamira",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 19,
+								"Codigo": "01",
+								"Denominacion": "Río Grande",
+								"MunicipioID": 12
+							}
+						]
+					},
+					{
+						"MunicipioID": 13,
+						"Codigo": "03",
+						"Denominacion": "Guananico",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 14,
+						"Codigo": "04",
+						"Denominacion": "Imbert",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 15,
+						"Codigo": "05",
+						"Denominacion": "Los Hidalgos",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 20,
+								"Codigo": "01",
+								"Denominacion": "Navas",
+								"MunicipioID": 15
+							}
+						]
+					},
+					{
+						"MunicipioID": 16,
+						"Codigo": "06",
+						"Denominacion": "Luperón",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 21,
+								"Codigo": "01",
+								"Denominacion": "La Isabela",
+								"MunicipioID": 16
+							},
+							{
+								"DistritoMunicipalID": 22,
+								"Codigo": "02",
+								"Denominacion": "Belloso",
+								"MunicipioID": 16
+							},
+							{
+								"DistritoMunicipalID": 23,
+								"Codigo": "03",
+								"Denominacion": "El Estrecho de Luperón Omar Bross",
+								"MunicipioID": 16
+							}
+						]
+					},
+					{
+						"MunicipioID": 17,
+						"Codigo": "07",
+						"Denominacion": "Sosúa",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 24,
+								"Codigo": "01",
+								"Denominacion": "Cabarete",
+								"MunicipioID": 17
+							},
+							{
+								"DistritoMunicipalID": 25,
+								"Codigo": "02",
+								"Denominacion": "Sabaneta de Yásica",
+								"MunicipioID": 17
+							}
+						]
+					},
+					{
+						"MunicipioID": 18,
+						"Codigo": "08",
+						"Denominacion": "Villa Isabela",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 26,
+								"Codigo": "01",
+								"Denominacion": "Estero Hondo",
+								"MunicipioID": 18
+							},
+							{
+								"DistritoMunicipalID": 27,
+								"Codigo": "02",
+								"Denominacion": "La Jaiba",
+								"MunicipioID": 18
+							},
+							{
+								"DistritoMunicipalID": 28,
+								"Codigo": "03",
+								"Denominacion": "Gualete",
+								"MunicipioID": 18
+							}
+						]
+					},
+					{
+						"MunicipioID": 19,
+						"Codigo": "09",
+						"Denominacion": "Villa Montellano",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 20,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 2,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 3,
+				"Codigo": "03",
+				"Denominacion": "Espaillat",
+				"RegionID": 1,
+				"Municipios": [
+					{
+						"MunicipioID": 21,
+						"Codigo": "01",
+						"Denominacion": "Moca",
+						"ProvinciaID": 3,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 29,
+								"Codigo": "01",
+								"Denominacion": "José Contreras",
+								"MunicipioID": 21
+							},
+							{
+								"DistritoMunicipalID": 30,
+								"Codigo": "02",
+								"Denominacion": "San Víctor",
+								"MunicipioID": 21
+							},
+							{
+								"DistritoMunicipalID": 31,
+								"Codigo": "03",
+								"Denominacion": "Juan López",
+								"MunicipioID": 21
+							},
+							{
+								"DistritoMunicipalID": 32,
+								"Codigo": "04",
+								"Denominacion": "Las Lagunas Abajo",
+								"MunicipioID": 21
+							},
+							{
+								"DistritoMunicipalID": 33,
+								"Codigo": "05",
+								"Denominacion": "Canca la Reina",
+								"MunicipioID": 21
+							},
+							{
+								"DistritoMunicipalID": 34,
+								"Codigo": "06",
+								"Denominacion": "El Higuerito",
+								"MunicipioID": 21
+							},
+							{
+								"DistritoMunicipalID": 35,
+								"Codigo": "07",
+								"Denominacion": "La Ortega",
+								"MunicipioID": 21
+							},
+							{
+								"DistritoMunicipalID": 36,
+								"Codigo": "08",
+								"Denominacion": "Monte de la Jagua",
+								"MunicipioID": 21
+							}
+						]
+					},
+					{
+						"MunicipioID": 22,
+						"Codigo": "02",
+						"Denominacion": "Cayetano Germosén",
+						"ProvinciaID": 3,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 23,
+						"Codigo": "03",
+						"Denominacion": "Gaspar Hernández",
+						"ProvinciaID": 3,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 37,
+								"Codigo": "01",
+								"Denominacion": "Veragua",
+								"MunicipioID": 23
+							},
+							{
+								"DistritoMunicipalID": 38,
+								"Codigo": "02",
+								"Denominacion": "Joba Arriba",
+								"MunicipioID": 23
+							},
+							{
+								"DistritoMunicipalID": 39,
+								"Codigo": "03",
+								"Denominacion": "Villa Magante",
+								"MunicipioID": 23
+							}
+						]
+					},
+					{
+						"MunicipioID": 24,
+						"Codigo": "04",
+						"Denominacion": "Jamao al Norte",
+						"ProvinciaID": 3,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 25,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 3,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 4,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 1,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 5,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 1,
+				"Municipios": [
+					{
+						"MunicipioID": 26,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 5,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 2,
+		"Codigo": "02",
+		"Denominacion": "CIBAO SUR",
+		"Provincias": [
+			{
+				"ProvinciaID": 6,
+				"Codigo": "01",
+				"Denominacion": "Concepción de La Vega",
+				"RegionID": 2,
+				"Munipios": [
+					{
+						"MunicipioID": 27,
+						"Codigo": "01",
+						"Denominacion": "La Vega",
+						"ProvinciaID": 6,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 40,
+								"Codigo": "01",
+								"Denominacion": "Río Verde Arriba",
+								"MunicipioID": 27
+							},
+							{
+								"DistritoMunicipalID": 41,
+								"Codigo": "02",
+								"Denominacion": "El Ranchito",
+								"MunicipioID": 27
+							}
+						]
+					},
+					{
+						"MunicipioID": 28,
+						"Codigo": "02",
+						"Denominacion": "Constanza",
+						"ProvinciaID": 6,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 42,
+								"Codigo": "01",
+								"Denominacion": "Tireo Arriba",
+								"MunicipioID": 28
+							},
+							{
+								"DistritoMunicipalID": 43,
+								"Codigo": "02",
+								"Denominacion": "La Sabina",
+								"MunicipioID": 28
+							}
+						]
+					},
+					{
+						"MunicipioID": 29,
+						"Codigo": "03",
+						"Denominacion": "Jarabacoa",
+						"ProvinciaID": 6,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 44,
+								"Codigo": "01",
+								"Denominacion": "Buena Vista",
+								"MunicipioID": 29
+							},
+							{
+								"DistritoMunicipalID": 45,
+								"Codigo": "02",
+								"Denominacion": "Manabao",
+								"MunicipioID": 29
+							}
+						]
+					},
+					{
+						"MunicipioID": 30,
+						"Codigo": "04",
+						"Denominacion": "Jima Abajo",
+						"ProvinciaID": 6,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 46,
+								"Codigo": "01",
+								"Denominacion": "Rincón",
+								"MunicipioID": 30
+							}
+						]
+					},
+					{
+						"MunicipioID": 31,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 6,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 7,
+				"Codigo": "02",
+				"Denominacion": "Monseñor Nouel",
+				"RegionID": 2,
+				"Munipios": [
+					{
+						"MunicipioID": 32,
+						"Codigo": "01",
+						"Denominacion": "Bonao",
+						"ProvinciaID": 7,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 47,
+								"Codigo": "01",
+								"Denominacion": "Sabana del Puerto",
+								"MunicipioID": 32
+							},
+							{
+								"DistritoMunicipalID": 48,
+								"Codigo": "02",
+								"Denominacion": "Juma Bejucal",
+								"MunicipioID": 32
+							},
+							{
+								"DistritoMunicipalID": 49,
+								"Codigo": "03",
+								"Denominacion": "Jayaco",
+								"MunicipioID": 32
+							},
+							{
+								"DistritoMunicipalID": 50,
+								"Codigo": "04",
+								"Denominacion": "Arroyo Toro Masipedro",
+								"MunicipioID": 32
+							},
+							{
+								"DistritoMunicipalID": 51,
+								"Codigo": "05",
+								"Denominacion": "La Salvia- Los Quemados",
+								"MunicipioID": 32
+							}
+						]
+					},
+					{
+						"MunicipioID": 33,
+						"Codigo": "02",
+						"Denominacion": "Maimón",
+						"ProvinciaID": 7,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 34,
+						"Codigo": "03",
+						"Denominacion": "Piedra Blanca",
+						"ProvinciaID": 7,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 52,
+								"Codigo": "01",
+								"Denominacion": "Villa de Sonador",
+								"MunicipioID": 34
+							},
+							{
+								"DistritoMunicipalID": 53,
+								"Codigo": "02",
+								"Denominacion": "Juan Adrián",
+								"MunicipioID": 34
+							}
+						]
+					},
+					{
+						"MunicipioID": 35,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 7,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 8,
+				"Codigo": "03",
+				"Denominacion": "Sánchez Ramírez",
+				"RegionID": 2,
+				"Munipios": [
+					{
+						"MunicipioID": 36,
+						"Codigo": "01",
+						"Denominacion": "Cotuí",
+						"ProvinciaID": 8,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 54,
+								"Codigo": "01",
+								"Denominacion": "Platanal",
+								"MunicipioID": 36
+							},
+							{
+								"DistritoMunicipalID": 55,
+								"Codigo": "02",
+								"Denominacion": "Quita Sueño",
+								"MunicipioID": 36
+							},
+							{
+								"DistritoMunicipalID": 56,
+								"Codigo": "03",
+								"Denominacion": "Comedero Arriba",
+								"MunicipioID": 36
+							},
+							{
+								"DistritoMunicipalID": 57,
+								"Codigo": "04",
+								"Denominacion": "Caballero",
+								"MunicipioID": 36
+							}
+						]
+					},
+					{
+						"MunicipioID": 37,
+						"Codigo": "02",
+						"Denominacion": "Cevicos",
+						"ProvinciaID": 8,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 58,
+								"Codigo": "01",
+								"Denominacion": "La Cueva",
+								"MunicipioID": 37
+							}
+						]
+					},
+					{
+						"MunicipioID": 38,
+						"Codigo": "03",
+						"Denominacion": "La Mata",
+						"ProvinciaID": 8,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 59,
+								"Codigo": "01",
+								"Denominacion": "La Bija",
+								"MunicipioID": 38
+							},
+							{
+								"DistritoMunicipalID": 60,
+								"Codigo": "02",
+								"Denominacion": "Angelina",
+								"MunicipioID": 38
+							},
+							{
+								"DistritoMunicipalID": 61,
+								"Codigo": "03",
+								"Denominacion": "Hernando Alonso",
+								"MunicipioID": 38
+							}
+						]
+					},
+					{
+						"MunicipioID": 39,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 8,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 9,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 2,
+				"Munipios": []
+			},
+			{
+				"ProvinciaID": 10,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 2,
+				"Munipios": [
+					{
+						"MunicipioID": 40,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 10,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 3,
+		"Codigo": "03",
+		"Denominacion": "CIBAO NORDESTE",
+		"Provincias": [
+			{
+				"ProvinciaID": 11,
+				"Codigo": "01",
+				"Denominacion": "Duarte",
+				"RegionID": 3,
+				"Municipios": [
+					{
+						"MunicipioID": 41,
+						"Codigo": "01",
+						"Denominacion": "San Fco. de Macorís",
+						"ProvinciaID": 11,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 62,
+								"Codigo": "01",
+								"Denominacion": "La Peña",
+								"MunicipioID": 41
+							},
+							{
+								"DistritoMunicipalID": 63,
+								"Codigo": "02",
+								"Denominacion": "Cenoví",
+								"MunicipioID": 41
+							},
+							{
+								"DistritoMunicipalID": 64,
+								"Codigo": "03",
+								"Denominacion": "Jaya",
+								"MunicipioID": 41
+							},
+							{
+								"DistritoMunicipalID": 65,
+								"Codigo": "04",
+								"Denominacion": "Don Antonio Guzmán Fernández",
+								"MunicipioID": 41
+							}
+						]
+					},
+					{
+						"MunicipioID": 42,
+						"Codigo": "02",
+						"Denominacion": "Arenoso",
+						"ProvinciaID": 11,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 66,
+								"Codigo": "01",
+								"Denominacion": "Las Coles",
+								"MunicipioID": 42
+							},
+							{
+								"DistritoMunicipalID": 67,
+								"Codigo": "02",
+								"Denominacion": "El Aguacate",
+								"MunicipioID": 42
+							}
+						]
+					},
+					{
+						"MunicipioID": 43,
+						"Codigo": "03",
+						"Denominacion": "Castillo",
+						"ProvinciaID": 11,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 44,
+						"Codigo": "04",
+						"Denominacion": "Hostos",
+						"ProvinciaID": 11,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 68,
+								"Codigo": "01",
+								"Denominacion": "Sabana Grande de Hostos",
+								"MunicipioID": 44
+							}
+						]
+					},
+					{
+						"MunicipioID": 45,
+						"Codigo": "05",
+						"Denominacion": "Pimentel",
+						"ProvinciaID": 11,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 46,
+						"Codigo": "06",
+						"Denominacion": "Villa Riva",
+						"ProvinciaID": 11,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 69,
+								"Codigo": "01",
+								"Denominacion": "Agua Santa del Yuna",
+								"MunicipioID": 46
+							},
+							{
+								"DistritoMunicipalID": 70,
+								"Codigo": "02",
+								"Denominacion": "Cristo Rey de Guaraguao",
+								"MunicipioID": 46
+							},
+							{
+								"DistritoMunicipalID": 71,
+								"Codigo": "03",
+								"Denominacion": "Las Táranas",
+								"MunicipioID": 46
+							},
+							{
+								"DistritoMunicipalID": 72,
+								"Codigo": "04",
+								"Denominacion": "Barraquito",
+								"MunicipioID": 46
+							}
+						]
+					},
+					{
+						"MunicipioID": 47,
+						"Codigo": "07",
+						"Denominacion": "Las Guáranas",
+						"ProvinciaID": 11,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 48,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 11,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 12,
+				"Codigo": "02",
+				"Denominacion": "Hermanas Mirabal",
+				"RegionID": 3,
+				"Municipios": [
+					{
+						"MunicipioID": 49,
+						"Codigo": "01",
+						"Denominacion": "Salcedo",
+						"ProvinciaID": 12,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 73,
+								"Codigo": "01",
+								"Denominacion": "Jamao Afuera",
+								"MunicipioID": 49
+							}
+						]
+					},
+					{
+						"MunicipioID": 50,
+						"Codigo": "02",
+						"Denominacion": "Tenares",
+						"ProvinciaID": 12,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 74,
+								"Codigo": "01",
+								"Denominacion": "Blanco",
+								"MunicipioID": 50
+							}
+						]
+					},
+					{
+						"MunicipioID": 51,
+						"Codigo": "03",
+						"Denominacion": "Villa Tapia",
+						"ProvinciaID": 12,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 52,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 12,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 13,
+				"Codigo": "03",
+				"Denominacion": "María Trinidad Sánchez",
+				"RegionID": 3,
+				"Municipios": [
+					{
+						"MunicipioID": 53,
+						"Codigo": "01",
+						"Denominacion": "Nagua",
+						"ProvinciaID": 13,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 75,
+								"Codigo": "01",
+								"Denominacion": "San José de Matanzas",
+								"MunicipioID": 53
+							},
+							{
+								"DistritoMunicipalID": 76,
+								"Codigo": "02",
+								"Denominacion": "Las Gordas",
+								"MunicipioID": 53
+							},
+							{
+								"DistritoMunicipalID": 77,
+								"Codigo": "03",
+								"Denominacion": "Arroyo al Medio",
+								"MunicipioID": 53
+							}
+						]
+					},
+					{
+						"MunicipioID": 54,
+						"Codigo": "02",
+						"Denominacion": "Cabrera",
+						"ProvinciaID": 13,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 78,
+								"Codigo": "01",
+								"Denominacion": "Arroyo Salado",
+								"MunicipioID": 54
+							},
+							{
+								"DistritoMunicipalID": 79,
+								"Codigo": "02",
+								"Denominacion": "La Entrada",
+								"MunicipioID": 54
+							}
+						]
+					},
+					{
+						"MunicipioID": 55,
+						"Codigo": "03",
+						"Denominacion": "El Factor",
+						"ProvinciaID": 13,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 80,
+								"Codigo": "01",
+								"Denominacion": "El Pozo",
+								"MunicipioID": 55
+							}
+						]
+					},
+					{
+						"MunicipioID": 56,
+						"Codigo": "03",
+						"Denominacion": "Río San Juan",
+						"ProvinciaID": 13,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 57,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 13,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 14,
+				"Codigo": "04",
+				"Denominacion": "Samaná",
+				"RegionID": 3,
+				"Municipios": [
+					{
+						"MunicipioID": 58,
+						"Codigo": "01",
+						"Denominacion": "Santa Bárbara de Samaná",
+						"ProvinciaID": 14,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 81,
+								"Codigo": "01",
+								"Denominacion": "El Limón",
+								"MunicipioID": 58
+							},
+							{
+								"DistritoMunicipalID": 82,
+								"Codigo": "02",
+								"Denominacion": "Arroyo Barril",
+								"MunicipioID": 58
+							},
+							{
+								"DistritoMunicipalID": 83,
+								"Codigo": "03",
+								"Denominacion": "Las Galeras",
+								"MunicipioID": 58
+							}
+						]
+					},
+					{
+						"MunicipioID": 59,
+						"Codigo": "02",
+						"Denominacion": "Sánchez",
+						"ProvinciaID": 14,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 60,
+						"Codigo": "03",
+						"Denominacion": "Las Terrenas",
+						"ProvinciaID": 14,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 61,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 14,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 15,
+				"Codigo": "09",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 3,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 16,
+				"Codigo": "09",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 3,
+				"Municipios": [
+					{
+						"MunicipioID": 62,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 16,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 4,
+		"Codigo": "04",
+		"Denominacion": "CIBAO NOROESTE",
+		"Provincias": [
+			{
+				"ProvinciaID": 17,
+				"Codigo": "01",
+				"Denominacion": "Valverde",
+				"RegionID": 4,
+				"Municipios": [
+					{
+						"MunicipioID": 63,
+						"Codigo": "01",
+						"Denominacion": "Santa Cruz de Mao",
+						"ProvinciaID": 17,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 84,
+								"Codigo": "01",
+								"Denominacion": "Ámina",
+								"MunicipioID": 63
+							},
+							{
+								"DistritoMunicipalID": 85,
+								"Codigo": "02",
+								"Denominacion": "Guatapanal",
+								"MunicipioID": 63
+							},
+							{
+								"DistritoMunicipalID": 86,
+								"Codigo": "03",
+								"Denominacion": "Jaibón (Pueblo Nuevo)",
+								"MunicipioID": 63
+							}
+						]
+					},
+					{
+						"MunicipioID": 64,
+						"Codigo": "02",
+						"Denominacion": "Esperanza",
+						"ProvinciaID": 17,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 87,
+								"Codigo": "01",
+								"Denominacion": "Maizal",
+								"MunicipioID": 64
+							},
+							{
+								"DistritoMunicipalID": 88,
+								"Codigo": "02",
+								"Denominacion": "Jicomé",
+								"MunicipioID": 64
+							},
+							{
+								"DistritoMunicipalID": 89,
+								"Codigo": "03",
+								"Denominacion": "Boca de Mao",
+								"MunicipioID": 64
+							},
+							{
+								"DistritoMunicipalID": 90,
+								"Codigo": "04",
+								"Denominacion": "Paradero",
+								"MunicipioID": 64
+							}
+						]
+					},
+					{
+						"MunicipioID": 65,
+						"Codigo": "03",
+						"Denominacion": "Laguna Salada",
+						"ProvinciaID": 17,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 91,
+								"Codigo": "01",
+								"Denominacion": "Jaibón (Laguna Salada)",
+								"MunicipioID": 65
+							},
+							{
+								"DistritoMunicipalID": 92,
+								"Codigo": "02",
+								"Denominacion": "La Caya",
+								"MunicipioID": 65
+							},
+							{
+								"DistritoMunicipalID": 93,
+								"Codigo": "03",
+								"Denominacion": "Cruce de Guayacanes",
+								"MunicipioID": 65
+							}
+						]
+					},
+					{
+						"MunicipioID": 66,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 17,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 18,
+				"Codigo": "02",
+				"Denominacion": "Santiago Rodriguez",
+				"RegionID": 4,
+				"Municipios": [
+					{
+						"MunicipioID": 67,
+						"Codigo": "01",
+						"Denominacion": "San Ignacio de Sabaneta",
+						"ProvinciaID": 18,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 68,
+						"Codigo": "02",
+						"Denominacion": "Villa los Almácigos",
+						"ProvinciaID": 18,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 69,
+						"Codigo": "03",
+						"Denominacion": "Monción",
+						"ProvinciaID": 18,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 70,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 18,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 19,
+				"Codigo": "03",
+				"Denominacion": "Montecristi",
+				"RegionID": 4,
+				"Municipios": [
+					{
+						"MunicipioID": 71,
+						"Codigo": "01",
+						"Denominacion": "San Fernando de Montecristi",
+						"ProvinciaID": 19,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 72,
+						"Codigo": "02",
+						"Denominacion": "Castañuelas",
+						"ProvinciaID": 19,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 94,
+								"Codigo": "01",
+								"Denominacion": "Palo Verde",
+								"MunicipioID": 72
+							}
+						]
+					},
+					{
+						"MunicipioID": 73,
+						"Codigo": "03",
+						"Denominacion": "Guayubín",
+						"ProvinciaID": 19,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 95,
+								"Codigo": "01",
+								"Denominacion": "Hatillo Palma",
+								"MunicipioID": 73
+							},
+							{
+								"DistritoMunicipalID": 96,
+								"Codigo": "02",
+								"Denominacion": "Villa Elisa",
+								"MunicipioID": 73
+							},
+							{
+								"DistritoMunicipalID": 97,
+								"Codigo": "03",
+								"Denominacion": "Cana Chapetón",
+								"MunicipioID": 73
+							}
+						]
+					},
+					{
+						"MunicipioID": 74,
+						"Codigo": "04",
+						"Denominacion": "Las Matas de Santa Cruz",
+						"ProvinciaID": 19,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 75,
+						"Codigo": "05",
+						"Denominacion": "Pepillo Salcedo",
+						"ProvinciaID": 19,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 76,
+						"Codigo": "06",
+						"Denominacion": "Villa Vásquez",
+						"ProvinciaID": 19,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 77,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 19,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 20,
+				"Codigo": "04",
+				"Denominacion": "Dajabón",
+				"RegionID": 4,
+				"Municipios": [
+					{
+						"MunicipioID": 78,
+						"Codigo": "01",
+						"Denominacion": "Dajabón",
+						"ProvinciaID": 20,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 98,
+								"Codigo": "01",
+								"Denominacion": "Cañongo",
+								"MunicipioID": 78
+							}
+						]
+					},
+					{
+						"MunicipioID": 79,
+						"Codigo": "02",
+						"Denominacion": "Loma de Cabrera",
+						"ProvinciaID": 20,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 99,
+								"Codigo": "01",
+								"Denominacion": "Capotillo",
+								"MunicipioID": 79
+							},
+							{
+								"DistritoMunicipalID": 100,
+								"Codigo": "02",
+								"Denominacion": "Santiago de la Cruz",
+								"MunicipioID": 79
+							}
+						]
+					},
+					{
+						"MunicipioID": 80,
+						"Codigo": "03",
+						"Denominacion": "Restauración",
+						"ProvinciaID": 20,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 81,
+						"Codigo": "04",
+						"Denominacion": "Partido",
+						"ProvinciaID": 20,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 82,
+						"Codigo": "05",
+						"Denominacion": "El Pino",
+						"ProvinciaID": 20,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 101,
+								"Codigo": "01",
+								"Denominacion": "Manuel Bueno",
+								"MunicipioID": 82
+							}
+						]
+					},
+					{
+						"MunicipioID": 83,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 20,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 21,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 4,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 22,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 4,
+				"Municipios": [
+					{
+						"MunicipioID": 84,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 22,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 5,
+		"Codigo": "05",
+		"Denominacion": "VALDESIA",
+		"Provincias": [
+			{
+				"ProvinciaID": 23,
+				"Codigo": "01",
+				"Denominacion": "San Cristóbal",
+				"RegionID": 5,
+				"Municipios": [
+					{
+						"MunicipioID": 85,
+						"Codigo": "01",
+						"Denominacion": "San Cristóbal",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 102,
+								"Codigo": "01",
+								"Denominacion": "Hato Damas",
+								"MunicipioID": 85
+							}
+						]
+					},
+					{
+						"MunicipioID": 86,
+						"Codigo": "02",
+						"Denominacion": "Bajos de Haina",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 103,
+								"Codigo": "01",
+								"Denominacion": "El Carril",
+								"MunicipioID": 86
+							}
+						]
+					},
+					{
+						"MunicipioID": 87,
+						"Codigo": "03",
+						"Denominacion": "Los Cacaos",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 88,
+						"Codigo": "04",
+						"Denominacion": "Cambita Garabitos",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 104,
+								"Codigo": "01",
+								"Denominacion": "Cambita el Pueblecito",
+								"MunicipioID": 88
+							}
+						]
+					},
+					{
+						"MunicipioID": 89,
+						"Codigo": "05",
+						"Denominacion": "San Gregorio de Nigua",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 90,
+						"Codigo": "06",
+						"Denominacion": "Sabana Grande de Palenque",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 91,
+						"Codigo": "07",
+						"Denominacion": "Yaguate",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 92,
+						"Codigo": "08",
+						"Denominacion": "Villa Altagracia",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 105,
+								"Codigo": "01",
+								"Denominacion": "Medina",
+								"MunicipioID": 92
+							},
+							{
+								"DistritoMunicipalID": 106,
+								"Codigo": "02",
+								"Denominacion": "La Cuchilla",
+								"MunicipioID": 92
+							},
+							{
+								"DistritoMunicipalID": 107,
+								"Codigo": "03",
+								"Denominacion": "San José del Puerto",
+								"MunicipioID": 92
+							}
+						]
+					},
+					{
+						"MunicipioID": 93,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 23,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 24,
+				"Codigo": "02",
+				"Denominacion": "Peravia",
+				"RegionID": 5,
+				"Municipios": [
+					{
+						"MunicipioID": 94,
+						"Codigo": "01",
+						"Denominacion": "Baní",
+						"ProvinciaID": 24,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 108,
+								"Codigo": "01",
+								"Denominacion": "Matanzas",
+								"MunicipioID": 94
+							},
+							{
+								"DistritoMunicipalID": 109,
+								"Codigo": "02",
+								"Denominacion": "Villa Fundación",
+								"MunicipioID": 94
+							},
+							{
+								"DistritoMunicipalID": 110,
+								"Codigo": "03",
+								"Denominacion": "Sabana Buey",
+								"MunicipioID": 94
+							},
+							{
+								"DistritoMunicipalID": 111,
+								"Codigo": "04",
+								"Denominacion": "Paya",
+								"MunicipioID": 94
+							},
+							{
+								"DistritoMunicipalID": 112,
+								"Codigo": "05",
+								"Denominacion": "Villa Sombrero",
+								"MunicipioID": 94
+							},
+							{
+								"DistritoMunicipalID": 113,
+								"Codigo": "06",
+								"Denominacion": "El Carretón",
+								"MunicipioID": 94
+							},
+							{
+								"DistritoMunicipalID": 114,
+								"Codigo": "07",
+								"Denominacion": "Catalina",
+								"MunicipioID": 94
+							},
+							{
+								"DistritoMunicipalID": 115,
+								"Codigo": "08",
+								"Denominacion": "Las Barías",
+								"MunicipioID": 94
+							},
+							{
+								"DistritoMunicipalID": 116,
+								"Codigo": "09",
+								"Denominacion": "El Limonal",
+								"MunicipioID": 94
+							}
+						]
+					},
+					{
+						"MunicipioID": 95,
+						"Codigo": "02",
+						"Denominacion": "Nizao",
+						"ProvinciaID": 24,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 117,
+								"Codigo": "01",
+								"Denominacion": "Pizarrete",
+								"MunicipioID": 95
+							},
+							{
+								"DistritoMunicipalID": 118,
+								"Codigo": "02",
+								"Denominacion": "Santana",
+								"MunicipioID": 95
+							}
+						]
+					},
+					{
+						"MunicipioID": 96,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 24,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 25,
+				"Codigo": "03",
+				"Denominacion": "San José de Ocoa",
+				"RegionID": 5,
+				"Municipios": [
+					{
+						"MunicipioID": 97,
+						"Codigo": "01",
+						"Denominacion": "San José de Ocoa",
+						"ProvinciaID": 25,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 119,
+								"Codigo": "01",
+								"Denominacion": "La Ciénaga",
+								"MunicipioID": 97
+							},
+							{
+								"DistritoMunicipalID": 120,
+								"Codigo": "02",
+								"Denominacion": "El Pinar",
+								"MunicipioID": 97
+							},
+							{
+								"DistritoMunicipalID": 121,
+								"Codigo": "03",
+								"Denominacion": "Nizao Las Auyamas",
+								"MunicipioID": 97
+							},
+							{
+								"DistritoMunicipalID": 122,
+								"Codigo": "04",
+								"Denominacion": "Naranjal",
+								"MunicipioID": 97
+							}
+						]
+					},
+					{
+						"MunicipioID": 98,
+						"Codigo": "02",
+						"Denominacion": "Sabana Larga",
+						"ProvinciaID": 25,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 99,
+						"Codigo": "03",
+						"Denominacion": "Rancho Arriba",
+						"ProvinciaID": 25,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 100,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 25,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 26,
+				"Codigo": "04",
+				"Denominacion": "Azua",
+				"RegionID": 5,
+				"Municipios": [
+					{
+						"MunicipioID": 101,
+						"Codigo": "01",
+						"Denominacion": "Azua de Compostela",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 123,
+								"Codigo": "01",
+								"Denominacion": "Barro Arriba",
+								"MunicipioID": 101
+							},
+							{
+								"DistritoMunicipalID": 124,
+								"Codigo": "02",
+								"Denominacion": "Las Barías - La Estancia",
+								"MunicipioID": 101
+							},
+							{
+								"DistritoMunicipalID": 125,
+								"Codigo": "03",
+								"Denominacion": "Los Jovillos",
+								"MunicipioID": 101
+							},
+							{
+								"DistritoMunicipalID": 126,
+								"Codigo": "04",
+								"Denominacion": "Barreras",
+								"MunicipioID": 101
+							},
+							{
+								"DistritoMunicipalID": 127,
+								"Codigo": "05",
+								"Denominacion": "Doña Emma Balaguer viuda Vallejo",
+								"MunicipioID": 101
+							},
+							{
+								"DistritoMunicipalID": 128,
+								"Codigo": "06",
+								"Denominacion": "Las Lomas",
+								"MunicipioID": 101
+							},
+							{
+								"DistritoMunicipalID": 129,
+								"Codigo": "07",
+								"Denominacion": "Clavellina",
+								"MunicipioID": 101
+							},
+							{
+								"DistritoMunicipalID": 130,
+								"Codigo": "08",
+								"Denominacion": "Puerto Viejo",
+								"MunicipioID": 101
+							}
+						]
+					},
+					{
+						"MunicipioID": 102,
+						"Codigo": "02",
+						"Denominacion": "Guayabal",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 103,
+						"Codigo": "03",
+						"Denominacion": "Las Charcas",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 131,
+								"Codigo": "01",
+								"Denominacion": "Palmar de Ocoa",
+								"MunicipioID": 103
+							}
+						]
+					},
+					{
+						"MunicipioID": 104,
+						"Codigo": "04",
+						"Denominacion": "Las Yayas de Viajama",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 132,
+								"Codigo": "01",
+								"Denominacion": "Villarpando",
+								"MunicipioID": 104
+							},
+							{
+								"DistritoMunicipalID": 133,
+								"Codigo": "02",
+								"Denominacion": "Hato Nuevo Cortés",
+								"MunicipioID": 104
+							}
+						]
+					},
+					{
+						"MunicipioID": 105,
+						"Codigo": "05",
+						"Denominacion": "Padre Las Casas",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 134,
+								"Codigo": "01",
+								"Denominacion": "La Siembra",
+								"MunicipioID": 105
+							},
+							{
+								"DistritoMunicipalID": 135,
+								"Codigo": "02",
+								"Denominacion": "Las Lagunas",
+								"MunicipioID": 105
+							},
+							{
+								"DistritoMunicipalID": 136,
+								"Codigo": "03",
+								"Denominacion": "Monte Bonito",
+								"MunicipioID": 105
+							},
+							{
+								"DistritoMunicipalID": 137,
+								"Codigo": "04",
+								"Denominacion": "Los Fríos",
+								"MunicipioID": 105
+							}
+						]
+					},
+					{
+						"MunicipioID": 106,
+						"Codigo": "06",
+						"Denominacion": "Peralta",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 107,
+						"Codigo": "07",
+						"Denominacion": "Sabana Yegua",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 138,
+								"Codigo": "01",
+								"Denominacion": "Proyecto 04",
+								"MunicipioID": 107
+							},
+							{
+								"DistritoMunicipalID": 139,
+								"Codigo": "02",
+								"Denominacion": "Ganadero",
+								"MunicipioID": 107
+							},
+							{
+								"DistritoMunicipalID": 140,
+								"Codigo": "03",
+								"Denominacion": "Proyecto 02-C",
+								"MunicipioID": 107
+							}
+						]
+					},
+					{
+						"MunicipioID": 108,
+						"Codigo": "08",
+						"Denominacion": "Tábara Arriba",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 141,
+								"Codigo": "01",
+								"Denominacion": "Amiama Gómez",
+								"MunicipioID": 108
+							},
+							{
+								"DistritoMunicipalID": 142,
+								"Codigo": "02",
+								"Denominacion": "Los Toros",
+								"MunicipioID": 108
+							},
+							{
+								"DistritoMunicipalID": 143,
+								"Codigo": "03",
+								"Denominacion": "Tábara Abajo",
+								"MunicipioID": 108
+							}
+						]
+					},
+					{
+						"MunicipioID": 109,
+						"Codigo": "09",
+						"Denominacion": "Estebanía",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 110,
+						"Codigo": "10",
+						"Denominacion": "Pueblo Viejo",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 144,
+								"Codigo": "01",
+								"Denominacion": "El Rosario",
+								"MunicipioID": 110
+							}
+						]
+					},
+					{
+						"MunicipioID": 111,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 26,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 27,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 5,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 28,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 5,
+				"Municipios": [
+					{
+						"MunicipioID": 112,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 28,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 6,
+		"Codigo": "06",
+		"Denominacion": "ENRIQUILLO",
+		"Provincias": [
+			{
+				"ProvinciaID": 29,
+				"Codigo": "01",
+				"Denominacion": "Barahona",
+				"RegionID": 6,
+				"Municipios": [
+					{
+						"MunicipioID": 113,
+						"Codigo": "01",
+						"Denominacion": "Santa Cruz de Barahona",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 145,
+								"Codigo": "01",
+								"Denominacion": "El Cachón",
+								"MunicipioID": 113
+							},
+							{
+								"DistritoMunicipalID": 146,
+								"Codigo": "02",
+								"Denominacion": "La Guázara",
+								"MunicipioID": 113
+							},
+							{
+								"DistritoMunicipalID": 147,
+								"Codigo": "03",
+								"Denominacion": "Villa Central",
+								"MunicipioID": 113
+							}
+						]
+					},
+					{
+						"MunicipioID": 114,
+						"Codigo": "02",
+						"Denominacion": "Cabral",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 115,
+						"Codigo": "03",
+						"Denominacion": "Enriquillo",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 148,
+								"Codigo": "01",
+								"Denominacion": "Arroyo Dulce",
+								"MunicipioID": 115
+							}
+						]
+					},
+					{
+						"MunicipioID": 116,
+						"Codigo": "04",
+						"Denominacion": "Las Salinas",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 117,
+						"Codigo": "05",
+						"Denominacion": "Paraíso",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 149,
+								"Codigo": "01",
+								"Denominacion": "Los Patos",
+								"MunicipioID": 117
+							}
+						]
+					},
+					{
+						"MunicipioID": 118,
+						"Codigo": "06",
+						"Denominacion": "Polo",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 119,
+						"Codigo": "07",
+						"Denominacion": "Vicente Noble",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 150,
+								"Codigo": "01",
+								"Denominacion": "Fondo Negro",
+								"MunicipioID": 119
+							},
+							{
+								"DistritoMunicipalID": 151,
+								"Codigo": "02",
+								"Denominacion": "Canoa",
+								"MunicipioID": 119
+							},
+							{
+								"DistritoMunicipalID": 152,
+								"Codigo": "03",
+								"Denominacion": "Quita Coraza",
+								"MunicipioID": 119
+							}
+						]
+					},
+					{
+						"MunicipioID": 120,
+						"Codigo": "08",
+						"Denominacion": "El Peñón",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 121,
+						"Codigo": "09",
+						"Denominacion": "Fundación",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 153,
+								"Codigo": "01",
+								"Denominacion": "Pescadería",
+								"MunicipioID": 121
+							}
+						]
+					},
+					{
+						"MunicipioID": 122,
+						"Codigo": "10",
+						"Denominacion": "La Ciénaga",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 154,
+								"Codigo": "01",
+								"Denominacion": "Bahoruco",
+								"MunicipioID": 122
+							}
+						]
+					},
+					{
+						"MunicipioID": 123,
+						"Codigo": "11",
+						"Denominacion": "Jaquimeyes",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 155,
+								"Codigo": "01",
+								"Denominacion": "Palo Alto",
+								"MunicipioID": 123
+							}
+						]
+					},
+					{
+						"MunicipioID": 124,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 29,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 30,
+				"Codigo": "02",
+				"Denominacion": "Bahoruco",
+				"RegionID": 6,
+				"Municipios": [
+					{
+						"MunicipioID": 125,
+						"Codigo": "01",
+						"Denominacion": "Neyba",
+						"ProvinciaID": 30,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 156,
+								"Codigo": "01",
+								"Denominacion": "El Palmar",
+								"MunicipioID": 125
+							}
+						]
+					},
+					{
+						"MunicipioID": 126,
+						"Codigo": "02",
+						"Denominacion": "Galván",
+						"ProvinciaID": 30,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 157,
+								"Codigo": "01",
+								"Denominacion": "El Salado",
+								"MunicipioID": 126
+							}
+						]
+					},
+					{
+						"MunicipioID": 127,
+						"Codigo": "03",
+						"Denominacion": "Los Ríos",
+						"ProvinciaID": 30,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 158,
+								"Codigo": "01",
+								"Denominacion": "Las Clavellinas",
+								"MunicipioID": 127
+							}
+						]
+					},
+					{
+						"MunicipioID": 128,
+						"Codigo": "04",
+						"Denominacion": "Tamayo",
+						"ProvinciaID": 30,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 159,
+								"Codigo": "01",
+								"Denominacion": "Uvilla",
+								"MunicipioID": 128
+							},
+							{
+								"DistritoMunicipalID": 160,
+								"Codigo": "02",
+								"Denominacion": "Santana",
+								"MunicipioID": 128
+							},
+							{
+								"DistritoMunicipalID": 161,
+								"Codigo": "03",
+								"Denominacion": "Monserrat",
+								"MunicipioID": 128
+							},
+							{
+								"DistritoMunicipalID": 162,
+								"Codigo": "04",
+								"Denominacion": "Cabeza de Toro",
+								"MunicipioID": 128
+							},
+							{
+								"DistritoMunicipalID": 163,
+								"Codigo": "05",
+								"Denominacion": "Mena",
+								"MunicipioID": 128
+							},
+							{
+								"DistritoMunicipalID": 164,
+								"Codigo": "06",
+								"Denominacion": "Santa Bárbara El 06",
+								"MunicipioID": 128
+							}
+						]
+					},
+					{
+						"MunicipioID": 129,
+						"Codigo": "05",
+						"Denominacion": "Villa Jaragua",
+						"ProvinciaID": 30,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 130,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 30,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 31,
+				"Codigo": "03",
+				"Denominacion": "Pedernales",
+				"RegionID": 6,
+				"Municipios": [
+					{
+						"MunicipioID": 131,
+						"Codigo": "01",
+						"Denominacion": "Pedernales",
+						"ProvinciaID": 31,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 165,
+								"Codigo": "01",
+								"Denominacion": "José Fco. Peña Gómez",
+								"MunicipioID": 131
+							}
+						]
+					},
+					{
+						"MunicipioID": 132,
+						"Codigo": "02",
+						"Denominacion": "Oviedo",
+						"ProvinciaID": 31,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 166,
+								"Codigo": "01",
+								"Denominacion": "Juancho",
+								"MunicipioID": 132
+							}
+						]
+					},
+					{
+						"MunicipioID": 133,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 31,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 32,
+				"Codigo": "04",
+				"Denominacion": "Independencia",
+				"RegionID": 6,
+				"Municipios": [
+					{
+						"MunicipioID": 134,
+						"Codigo": "01",
+						"Denominacion": "Jimaní",
+						"ProvinciaID": 32,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 167,
+								"Codigo": "01",
+								"Denominacion": "El Limón",
+								"MunicipioID": 134
+							},
+							{
+								"DistritoMunicipalID": 168,
+								"Codigo": "02",
+								"Denominacion": "Boca de Cachón",
+								"MunicipioID": 134
+							}
+						]
+					},
+					{
+						"MunicipioID": 135,
+						"Codigo": "02",
+						"Denominacion": "Duvergé",
+						"ProvinciaID": 32,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 169,
+								"Codigo": "01",
+								"Denominacion": "Vengan a ver",
+								"MunicipioID": 135
+							}
+						]
+					},
+					{
+						"MunicipioID": 136,
+						"Codigo": "03",
+						"Denominacion": "La Descubierta",
+						"ProvinciaID": 32,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 137,
+						"Codigo": "04",
+						"Denominacion": "Mella",
+						"ProvinciaID": 32,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 138,
+						"Codigo": "05",
+						"Denominacion": "Postrer Río",
+						"ProvinciaID": 32,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 170,
+								"Codigo": "01",
+								"Denominacion": "Guayabal",
+								"MunicipioID": 138
+							}
+						]
+					},
+					{
+						"MunicipioID": 139,
+						"Codigo": "06",
+						"Denominacion": "Cristóbal",
+						"ProvinciaID": 32,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 171,
+								"Codigo": "01",
+								"Denominacion": "La Colonia",
+								"MunicipioID": 139
+							},
+							{
+								"DistritoMunicipalID": 172,
+								"Codigo": "02",
+								"Denominacion": "Batey 08",
+								"MunicipioID": 139
+							}
+						]
+					},
+					{
+						"MunicipioID": 140,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 32,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 33,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 6,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 34,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 6,
+				"Municipios": [
+					{
+						"MunicipioID": 141,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 34,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 7,
+		"Codigo": "07",
+		"Denominacion": "EL VALLE",
+		"Provincias": [
+			{
+				"ProvinciaID": 35,
+				"Codigo": "01",
+				"Denominacion": "San Juan",
+				"RegionID": 7,
+				"Municipios": [
+					{
+						"MunicipioID": 142,
+						"Codigo": "01",
+						"Denominacion": "San Juan de la Maguana",
+						"ProvinciaID": 35,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 173,
+								"Codigo": "01",
+								"Denominacion": "Pedro Corto",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 174,
+								"Codigo": "02",
+								"Denominacion": "Sabaneta",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 175,
+								"Codigo": "03",
+								"Denominacion": "Sabana Alta",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 176,
+								"Codigo": "04",
+								"Denominacion": "El Rosario",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 177,
+								"Codigo": "05",
+								"Denominacion": "Hato del Padre",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 178,
+								"Codigo": "06",
+								"Denominacion": "La Jagua",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 179,
+								"Codigo": "07",
+								"Denominacion": "Guanito",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 180,
+								"Codigo": "08",
+								"Denominacion": "Las Charcas de María Nova",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 181,
+								"Codigo": "09",
+								"Denominacion": "Las Maguanas, Hato Nuevo",
+								"MunicipioID": 142
+							},
+							{
+								"DistritoMunicipalID": 182,
+								"Codigo": "10",
+								"Denominacion": "Las Zanjas",
+								"MunicipioID": 142
+							}
+						]
+					},
+					{
+						"MunicipioID": 143,
+						"Codigo": "02",
+						"Denominacion": "Bohechio",
+						"ProvinciaID": 35,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 183,
+								"Codigo": "01",
+								"Denominacion": "Arroyo Cano",
+								"MunicipioID": 143
+							},
+							{
+								"DistritoMunicipalID": 184,
+								"Codigo": "02",
+								"Denominacion": "El Yaque",
+								"MunicipioID": 143
+							}
+						]
+					},
+					{
+						"MunicipioID": 144,
+						"Codigo": "03",
+						"Denominacion": "El Cercado",
+						"ProvinciaID": 35,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 185,
+								"Codigo": "01",
+								"Denominacion": "Nuevo Brasil",
+								"MunicipioID": 144
+							},
+							{
+								"DistritoMunicipalID": 186,
+								"Codigo": "02",
+								"Denominacion": "Batista",
+								"MunicipioID": 144
+							}
+						]
+					},
+					{
+						"MunicipioID": 145,
+						"Codigo": "04",
+						"Denominacion": "Juan de Herrera",
+						"ProvinciaID": 35,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 187,
+								"Codigo": "01",
+								"Denominacion": "Jínova",
+								"MunicipioID": 145
+							}
+						]
+					},
+					{
+						"MunicipioID": 146,
+						"Codigo": "05",
+						"Denominacion": "Las Matas de Farfán",
+						"ProvinciaID": 35,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 188,
+								"Codigo": "01",
+								"Denominacion": "Matayaya",
+								"MunicipioID": 146
+							},
+							{
+								"DistritoMunicipalID": 189,
+								"Codigo": "02",
+								"Denominacion": "Carrera de Yeguas",
+								"MunicipioID": 146
+							}
+						]
+					},
+					{
+						"MunicipioID": 147,
+						"Codigo": "06",
+						"Denominacion": "Vallejuelo",
+						"ProvinciaID": 35,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 190,
+								"Codigo": "01",
+								"Denominacion": "Jorgillo",
+								"MunicipioID": 147
+							}
+						]
+					},
+					{
+						"MunicipioID": 148,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 35,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 36,
+				"Codigo": "02",
+				"Denominacion": "Elías Piña",
+				"RegionID": 7,
+				"Municipios": [
+					{
+						"MunicipioID": 149,
+						"Codigo": "01",
+						"Denominacion": "Comendador",
+						"ProvinciaID": 36,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 191,
+								"Codigo": "01",
+								"Denominacion": "Sabana Larga",
+								"MunicipioID": 149
+							},
+							{
+								"DistritoMunicipalID": 192,
+								"Codigo": "02",
+								"Denominacion": "Guayabo",
+								"MunicipioID": 149
+							}
+						]
+					},
+					{
+						"MunicipioID": 150,
+						"Codigo": "02",
+						"Denominacion": "Bánica",
+						"ProvinciaID": 36,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 193,
+								"Codigo": "01",
+								"Denominacion": "Sabana Cruz",
+								"MunicipioID": 150
+							},
+							{
+								"DistritoMunicipalID": 194,
+								"Codigo": "02",
+								"Denominacion": "Sabana Higüero",
+								"MunicipioID": 150
+							}
+						]
+					},
+					{
+						"MunicipioID": 151,
+						"Codigo": "03",
+						"Denominacion": "El Llano",
+						"ProvinciaID": 36,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 195,
+								"Codigo": "01",
+								"Denominacion": "Guanito",
+								"MunicipioID": 151
+							}
+						]
+					},
+					{
+						"MunicipioID": 152,
+						"Codigo": "04",
+						"Denominacion": "Hondo Valle",
+						"ProvinciaID": 36,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 196,
+								"Codigo": "01",
+								"Denominacion": "Rancho de la Guardia",
+								"MunicipioID": 152
+							}
+						]
+					},
+					{
+						"MunicipioID": 153,
+						"Codigo": "05",
+						"Denominacion": "Pedro Santana",
+						"ProvinciaID": 36,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 197,
+								"Codigo": "01",
+								"Denominacion": "Río Limpio",
+								"MunicipioID": 153
+							}
+						]
+					},
+					{
+						"MunicipioID": 154,
+						"Codigo": "06",
+						"Denominacion": "Juan Santiago",
+						"ProvinciaID": 36,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 155,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 36,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 37,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 7,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 38,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 7,
+				"Municipios": [
+					{
+						"MunicipioID": 156,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 38,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 8,
+		"Codigo": "08",
+		"Denominacion": "YUMA",
+		"Provincias": [
+			{
+				"ProvinciaID": 39,
+				"Codigo": "01",
+				"Denominacion": "La Romana",
+				"RegionID": 8,
+				"Municipios": [
+					{
+						"MunicipioID": 157,
+						"Codigo": "01",
+						"Denominacion": "La Romana",
+						"ProvinciaID": 39,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 198,
+								"Codigo": "01",
+								"Denominacion": "Caleta",
+								"MunicipioID": 157
+							}
+						]
+					},
+					{
+						"MunicipioID": 158,
+						"Codigo": "02",
+						"Denominacion": "Guaymate",
+						"ProvinciaID": 39,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 159,
+						"Codigo": "03",
+						"Denominacion": "Villa Hermosa",
+						"ProvinciaID": 39,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 199,
+								"Codigo": "01",
+								"Denominacion": "Cumayasa",
+								"MunicipioID": 159
+							}
+						]
+					},
+					{
+						"MunicipioID": 160,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 39,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 40,
+				"Codigo": "02",
+				"Denominacion": "La Altagracia",
+				"RegionID": 8,
+				"Municipios": [
+					{
+						"MunicipioID": 161,
+						"Codigo": "01",
+						"Denominacion": "Salvaléon de Higüey",
+						"ProvinciaID": 40,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 200,
+								"Codigo": "01",
+								"Denominacion": "Laguna Nisibón",
+								"MunicipioID": 161
+							},
+							{
+								"DistritoMunicipalID": 201,
+								"Codigo": "02",
+								"Denominacion": "La Otra Banda",
+								"MunicipioID": 161
+							},
+							{
+								"DistritoMunicipalID": 202,
+								"Codigo": "03",
+								"Denominacion": "Verón Punta Cana",
+								"MunicipioID": 161
+							}
+						]
+					},
+					{
+						"MunicipioID": 162,
+						"Codigo": "02",
+						"Denominacion": "San Rafael del Yuma",
+						"ProvinciaID": 40,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 203,
+								"Codigo": "01",
+								"Denominacion": "Boca de Yuma",
+								"MunicipioID": 162
+							},
+							{
+								"DistritoMunicipalID": 204,
+								"Codigo": "02",
+								"Denominacion": "Bayahíbe",
+								"MunicipioID": 162
+							}
+						]
+					},
+					{
+						"MunicipioID": 163,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 40,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 41,
+				"Codigo": "03",
+				"Denominacion": "El Seibo",
+				"RegionID": 8,
+				"Municipios": [
+					{
+						"MunicipioID": 164,
+						"Codigo": "01",
+						"Denominacion": "Santa Cruz del Seibo",
+						"ProvinciaID": 41,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 205,
+								"Codigo": "01",
+								"Denominacion": "Villa de Pedro Sánchez",
+								"MunicipioID": 164
+							},
+							{
+								"DistritoMunicipalID": 206,
+								"Codigo": "02",
+								"Denominacion": "San Francisco Vicentillo",
+								"MunicipioID": 164
+							},
+							{
+								"DistritoMunicipalID": 207,
+								"Codigo": "03",
+								"Denominacion": "Santa Lucía",
+								"MunicipioID": 164
+							}
+						]
+					},
+					{
+						"MunicipioID": 165,
+						"Codigo": "02",
+						"Denominacion": "Miches",
+						"ProvinciaID": 41,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 208,
+								"Codigo": "01",
+								"Denominacion": "El Cedro (Jobero)",
+								"MunicipioID": 165
+							},
+							{
+								"DistritoMunicipalID": 209,
+								"Codigo": "02",
+								"Denominacion": "Gina",
+								"MunicipioID": 165
+							}
+						]
+					},
+					{
+						"MunicipioID": 166,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 41,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 42,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 8,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 43,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 8,
+				"Municipios": [
+					{
+						"MunicipioID": 167,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 43,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 9,
+		"Codigo": "09",
+		"Denominacion": "HIGUAMO",
+		"Provincias": [
+			{
+				"ProvinciaID": 44,
+				"Codigo": "01",
+				"Denominacion": "San Pedro de Macorís",
+				"RegionID": 9,
+				"Municipios": [
+					{
+						"MunicipioID": 168,
+						"Codigo": "01",
+						"Denominacion": "San Pedro de Macorís",
+						"ProvinciaID": 44,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 169,
+						"Codigo": "02",
+						"Denominacion": "San José de los Llanos",
+						"ProvinciaID": 44,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 210,
+								"Codigo": "01",
+								"Denominacion": "El Puerto",
+								"MunicipioID": 169
+							},
+							{
+								"DistritoMunicipalID": 211,
+								"Codigo": "02",
+								"Denominacion": "Gautier",
+								"MunicipioID": 169
+							}
+						]
+					},
+					{
+						"MunicipioID": 170,
+						"Codigo": "03",
+						"Denominacion": "Ramón Santana",
+						"ProvinciaID": 44,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 171,
+						"Codigo": "04",
+						"Denominacion": "Consuelo",
+						"ProvinciaID": 44,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 172,
+						"Codigo": "05",
+						"Denominacion": "Quisqueya",
+						"ProvinciaID": 44,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 173,
+						"Codigo": "06",
+						"Denominacion": "Guayacanes",
+						"ProvinciaID": 44,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 174,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 44,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 45,
+				"Codigo": "02",
+				"Denominacion": "Hato Mayor",
+				"RegionID": 9,
+				"Municipios": [
+					{
+						"MunicipioID": 175,
+						"Codigo": "01",
+						"Denominacion": "Hato Mayor del Rey",
+						"ProvinciaID": 45,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 212,
+								"Codigo": "01",
+								"Denominacion": "Yerba Buena",
+								"MunicipioID": 175
+							},
+							{
+								"DistritoMunicipalID": 213,
+								"Codigo": "02",
+								"Denominacion": "Mata Palacio",
+								"MunicipioID": 175
+							},
+							{
+								"DistritoMunicipalID": 214,
+								"Codigo": "03",
+								"Denominacion": "Guayabo Dulce",
+								"MunicipioID": 175
+							}
+						]
+					},
+					{
+						"MunicipioID": 176,
+						"Codigo": "02",
+						"Denominacion": "Sabana de la Mar",
+						"ProvinciaID": 45,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 215,
+								"Codigo": "01",
+								"Denominacion": "Las Cañitas, Elupina Cordero",
+								"MunicipioID": 176
+							}
+						]
+					},
+					{
+						"MunicipioID": 177,
+						"Codigo": "03",
+						"Denominacion": "El Valle",
+						"ProvinciaID": 45,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 178,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 45,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 46,
+				"Codigo": "03",
+				"Denominacion": "Monte Plata",
+				"RegionID": 9,
+				"Municipios": [
+					{
+						"MunicipioID": 179,
+						"Codigo": "01",
+						"Denominacion": "Monte Plata",
+						"ProvinciaID": 46,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 216,
+								"Codigo": "01",
+								"Denominacion": "Don Juan",
+								"MunicipioID": 179
+							},
+							{
+								"DistritoMunicipalID": 217,
+								"Codigo": "02",
+								"Denominacion": "Chirino",
+								"MunicipioID": 179
+							},
+							{
+								"DistritoMunicipalID": 218,
+								"Codigo": "03",
+								"Denominacion": "Boyá",
+								"MunicipioID": 179
+							}
+						]
+					},
+					{
+						"MunicipioID": 180,
+						"Codigo": "02",
+						"Denominacion": "Bayaguana",
+						"ProvinciaID": 46,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 181,
+						"Codigo": "03",
+						"Denominacion": "Sabana Grande de Boyá",
+						"ProvinciaID": 46,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 219,
+								"Codigo": "01",
+								"Denominacion": "Gonzalo",
+								"MunicipioID": 181
+							},
+							{
+								"DistritoMunicipalID": 220,
+								"Codigo": "02",
+								"Denominacion": "Majagual",
+								"MunicipioID": 181
+							}
+						]
+					},
+					{
+						"MunicipioID": 182,
+						"Codigo": "04",
+						"Denominacion": "Yamasá",
+						"ProvinciaID": 46,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 221,
+								"Codigo": "01",
+								"Denominacion": "Los Botados",
+								"MunicipioID": 182
+							},
+							{
+								"DistritoMunicipalID": 222,
+								"Codigo": "02",
+								"Denominacion": "Mamá Tingó",
+								"MunicipioID": 182
+							}
+						]
+					},
+					{
+						"MunicipioID": 183,
+						"Codigo": "05",
+						"Denominacion": "Peralvillo",
+						"ProvinciaID": 46,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 184,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 46,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 47,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 9,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 48,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 9,
+				"Municipios": [
+					{
+						"MunicipioID": 185,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 48,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 10,
+		"Codigo": "10",
+		"Denominacion": "OZAMA O METROPOLITANA",
+		"Provincias": [
+			{
+				"ProvinciaID": 49,
+				"Codigo": "01",
+				"Denominacion": "Distrito Nacional",
+				"RegionID": 10,
+				"Municipios": [
+					{
+						"MunicipioID": 186,
+						"Codigo": "01",
+						"Denominacion": "Distrito Nacional",
+						"ProvinciaID": 49,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 50,
+				"Codigo": "02",
+				"Denominacion": "Santo Domingo",
+				"RegionID": 10,
+				"Municipios": [
+					{
+						"MunicipioID": 187,
+						"Codigo": "01",
+						"Denominacion": "Santo Domingo Este",
+						"ProvinciaID": 50,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 223,
+								"Codigo": "01",
+								"Denominacion": "San Luis",
+								"MunicipioID": 187
+							}
+						]
+					},
+					{
+						"MunicipioID": 188,
+						"Codigo": "02",
+						"Denominacion": "Santo Domingo Oeste",
+						"ProvinciaID": 50,
+						"DistrictosMunicipales": []
+					},
+					{
+						"MunicipioID": 189,
+						"Codigo": "03",
+						"Denominacion": "Santo Domingo Norte",
+						"ProvinciaID": 50,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 224,
+								"Codigo": "01",
+								"Denominacion": "La Victoria",
+								"MunicipioID": 189
+							}
+						]
+					},
+					{
+						"MunicipioID": 190,
+						"Codigo": "04",
+						"Denominacion": "Boca Chica",
+						"ProvinciaID": 50,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 225,
+								"Codigo": "01",
+								"Denominacion": "La Caleta",
+								"MunicipioID": 190
+							}
+						]
+					},
+					{
+						"MunicipioID": 191,
+						"Codigo": "05",
+						"Denominacion": "Guerra",
+						"ProvinciaID": 50,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 226,
+								"Codigo": "01",
+								"Denominacion": "Hato Viejo",
+								"MunicipioID": 191
+							}
+						]
+					},
+					{
+						"MunicipioID": 192,
+						"Codigo": "06",
+						"Denominacion": "Los Alcarrizos",
+						"ProvinciaID": 50,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 227,
+								"Codigo": "01",
+								"Denominacion": "Pantoja",
+								"MunicipioID": 192
+							},
+							{
+								"DistritoMunicipalID": 228,
+								"Codigo": "02",
+								"Denominacion": "Palmarejo - Villa Linda",
+								"MunicipioID": 192
+							}
+						]
+					},
+					{
+						"MunicipioID": 193,
+						"Codigo": "07",
+						"Denominacion": "Pedro Brand",
+						"ProvinciaID": 50,
+						"DistrictosMunicipales": [
+							{
+								"DistritoMunicipalID": 229,
+								"Codigo": "01",
+								"Denominacion": "La Guáyiga",
+								"MunicipioID": 193
+							},
+							{
+								"DistritoMunicipalID": 230,
+								"Codigo": "02",
+								"Denominacion": "La Cuaba",
+								"MunicipioID": 193
+							}
+						]
+					},
+					{
+						"MunicipioID": 194,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 50,
+						"DistrictosMunicipales": []
+					}
+				]
+			},
+			{
+				"ProvinciaID": 51,
+				"Codigo": "08",
+				"Denominacion": "Multiprovincial",
+				"RegionID": 10,
+				"Municipios": []
+			},
+			{
+				"ProvinciaID": 52,
+				"Codigo": "08",
+				"Denominacion": "Multimunicipal",
+				"RegionID": 10,
+				"Municipios": [
+					{
+						"MunicipioID": 195,
+						"Codigo": "99",
+						"Denominacion": "Multimunicipal",
+						"ProvinciaID": 52,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 11,
+		"Codigo": "11",
+		"Denominacion": "Multiregional",
+		"Provincias": [
+			{
+				"ProvinciaID": 53,
+				"Codigo": "01",
+				"Denominacion": "Multiregional",
+				"RegionID": 11,
+				"Municipios": [
+					{
+						"MunicipioID": 196,
+						"Codigo": "99",
+						"Denominacion": "Multiregional",
+						"ProvinciaID": 53,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 12,
+		"Codigo": "12",
+		"Denominacion": "Nacional",
+		"Provincias": [
+			{
+				"ProvinciaID": 54,
+				"Codigo": "01",
+				"Denominacion": "Nacional",
+				"RegionID": 12,
+				"Municipios": [
+					{
+						"MunicipioID": 197,
+						"Codigo": "99",
+						"Denominacion": "Nacional",
+						"ProvinciaID": 54,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"RegionID": 13,
+		"Codigo": "13",
+		"Denominacion": "Binacional",
+		"Provincias": [
+			{
+				"ProvinciaID": 55,
+				"Codigo": "01",
+				"Denominacion": "Binacional",
+				"RegionID": 13,
+				"Municipios": [
+					{
+						"MunicipioID": 198,
+						"Codigo": "99",
+						"Denominacion": "Binacional",
+						"ProvinciaID": 55,
+						"DistrictosMunicipales": []
+					}
+				]
+			}
+		]
+	}
+]
