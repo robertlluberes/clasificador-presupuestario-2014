@@ -18,4 +18,6 @@ Este repositorio tiene como objetivo proveer una fuente de datos -como scripts p
 
 * [Clasificador del tipo de moneda](https://github.com/robertlluberes/clasificador-presupuestario-2014/tree/master/clasificador-tipo-moneda "Clasificador del tipo de moneda")
 
+* [Clasificador funcional](https://github.com/robertlluberes/clasificador-presupuestario-2014/tree/master/clasificador-funcional "Clasificador funcional")
+
 Si deseas aportar puedes incluir uno de los clasificadores en un formato que no este disponible o agregando un nuevo clasificador, puedes descargar el [Manual de Clasificadores Presupuestarios](http://www.digepres.gob.do/wp-content/uploads/2018/06/MANUAL-DE-CLASIFICADORES-2014-27-03-2014.pdf "Ver / Descargar el Clasificadores Presupuestarios para el Sector Público") construir tu propio script de SQL o un archivo JSON. Por favor seguir el mismo estilo utilizado hasta el momento.
