@@ -1,0 +1,649 @@
+[
+    {
+        "FinalidadID": 1,
+        "Codigo": 1,
+        "Descripcion": "SERVICIOS GENERALES",
+        "Funciones": [
+            {
+                "FuncionID": 1,
+                "Codigo": 1,
+                "Descripcion": "Administración general",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 1,
+                        "Codigo": "01",
+                        "Descripcion": "Órganos ejecutivos y legislativos"
+                    },
+                    {
+                        "SubFuncionID": 2,
+                        "Codigo": "02",
+                        "Descripcion": "Gestión administrativa, financiera, fiscal, económica y planificación"
+                    },
+                    {
+                        "SubFuncionID": 3,
+                        "Codigo": "03",
+                        "Descripcion": "Transferencias a instituciones públicas incluidos los gobiernos locales"
+                    },
+                    {
+                        "SubFuncionID": 4,
+                        "Codigo": "04",
+                        "Descripcion": "Órganos electorales y promoción de la participación ciudadana"
+                    },
+                    {
+                        "SubFuncionID": 5,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo relacionado con la administración general"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 2,
+                "Codigo": 2,
+                "Descripcion": "Relaciones internacionales",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 6,
+                        "Codigo": "01",
+                        "Descripcion": "Relaciones internacionales desde oficinas en el país"
+                    },
+                    {
+                        "SubFuncionID": 7,
+                        "Codigo": "02",
+                        "Descripcion": "Relaciones internacionales desde oficinas en el exterior"
+                    },
+                    {
+                        "SubFuncionID": 8,
+                        "Codigo": "03",
+                        "Descripcion": "Cooperación al exterior"
+                    },
+                    {
+                        "SubFuncionID": 9,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo vinculada a las relaciones internacionales"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 3,
+                "Codigo": 3,
+                "Descripcion": "Defensa nacional",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 10,
+                        "Codigo": "01",
+                        "Descripcion": "Defensa militar"
+                    },
+                    {
+                        "SubFuncionID": 11,
+                        "Codigo": "02",
+                        "Descripcion": "Defensa civil y gestión de riesgo de desastre"
+                    },
+                    {
+                        "SubFuncionID": 12,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo para la defensa militar y civil y gestión de riesgo de desastre"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 4,
+                "Codigo": 4,
+                "Descripcion": "Justicia, orden público y seguridad",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 13,
+                        "Codigo": "01",
+                        "Descripcion": "Servicios de seguridad interior"
+                    },
+                    {
+                        "SubFuncionID": 14,
+                        "Codigo": "02",
+                        "Descripcion": "Servicios de protección contra Incendios"
+                    },
+                    {
+                        "SubFuncionID": 15,
+                        "Codigo": "03",
+                        "Descripcion": "Administración y servicios de justicia"
+                    },
+                    {
+                        "SubFuncionID": 16,
+                        "Codigo": "04",
+                        "Descripcion": "Prisiones"
+                    },
+                    {
+                        "SubFuncionID": 17,
+                        "Codigo": "05",
+                        "Descripcion": "Servicios de migraciones"
+                    },
+                    {
+                        "SubFuncionID": 18,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo relacionado con la justicia, orden público y seguridad"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "FinalidadID": 2,
+        "Codigo": 2,
+        "Descripcion": "SERVICIOS ECONÓMICOS",
+        "Funciones": [
+            {
+                "FuncionID": 5,
+                "Codigo": 1,
+                "Descripcion": "Asuntos económicos y laborales",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 19,
+                        "Codigo": "01",
+                        "Descripcion": "Asuntos económicos y regulación del comercio"
+                    },
+                    {
+                        "SubFuncionID": 20,
+                        "Codigo": "02",
+                        "Descripcion": "Asuntos laborales generales"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 6,
+                "Codigo": 2,
+                "Descripcion": "Agropecuaria, caza, pesca y silvicultura",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 21,
+                        "Codigo": "01",
+                        "Descripcion": "Agropecuaria"
+                    },
+                    {
+                        "SubFuncionID": 22,
+                        "Codigo": "02",
+                        "Descripcion": "Caza y pesca"
+                    },
+                    {
+                        "SubFuncionID": 23,
+                        "Codigo": "03",
+                        "Descripcion": "Silvicultura"
+                    },
+                    {
+                        "SubFuncionID": 24,
+                        "Codigo": "99",
+                        "Descripcion": "Planificación, gestión y supervisión agropecuaria, caza, pesca y silvicultura"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 7,
+                "Codigo": 3,
+                "Descripcion": "Riego",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 25,
+                        "Codigo": "01",
+                        "Descripcion": "Riego"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 8,
+                "Codigo": 4,
+                "Descripcion": "Energía y combustible",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 26,
+                        "Codigo": "01",
+                        "Descripcion": "Energía eléctrica"
+                    },
+                    {
+                        "SubFuncionID": 27,
+                        "Codigo": "02",
+                        "Descripcion": "Energía no convencional"
+                    },
+                    {
+                        "SubFuncionID": 28,
+                        "Codigo": "03",
+                        "Descripcion": "Combustible"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 9,
+                "Codigo": 5,
+                "Descripcion": "Minería, manufactura y construcción",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 29,
+                        "Codigo": "01",
+                        "Descripcion": "Extracción de recursos minerales"
+                    },
+                    {
+                        "SubFuncionID": 30,
+                        "Codigo": "02",
+                        "Descripcion": "Manufacturas"
+                    },
+                    {
+                        "SubFuncionID": 31,
+                        "Codigo": "03",
+                        "Descripcion": "Supervisión y regulación de la construcción"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 10,
+                "Codigo": 6,
+                "Descripcion": "Transporte",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 32,
+                        "Codigo": "01",
+                        "Descripcion": "Transporte por carretera"
+                    },
+                    {
+                        "SubFuncionID": 33,
+                        "Codigo": "02",
+                        "Descripcion": "Transporte por agua"
+                    },
+                    {
+                        "SubFuncionID": 34,
+                        "Codigo": "03",
+                        "Descripcion": "Transporte por ferrocarril"
+                    },
+                    {
+                        "SubFuncionID": 35,
+                        "Codigo": "04",
+                        "Descripcion": "Transporte aéreo"
+                    },
+                    {
+                        "SubFuncionID": 36,
+                        "Codigo": "99",
+                        "Descripcion": "Planificación, gestión y supervisión del transporte"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 11,
+                "Codigo": 7,
+                "Descripcion": "Comunicaciones",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 37,
+                        "Codigo": "01",
+                        "Descripcion": "Comunicaciones"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 12,
+                "Codigo": 8,
+                "Descripcion": "Banca y seguros",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 38,
+                        "Codigo": "01",
+                        "Descripcion": "Regulación, control y diseño de políticas"
+                    },
+                    {
+                        "SubFuncionID": 39,
+                        "Codigo": "02",
+                        "Descripcion": "Operación de la banca y del sector seguros"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 13,
+                "Codigo": 9,
+                "Descripcion": "Otros servicios económicos",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 40,
+                        "Codigo": "01",
+                        "Descripcion": "Comercio de distribución almacenamiento y depósito"
+                    },
+                    {
+                        "SubFuncionID": 41,
+                        "Codigo": "02",
+                        "Descripcion": "Hoteles y restaurantes"
+                    },
+                    {
+                        "SubFuncionID": 42,
+                        "Codigo": "03",
+                        "Descripcion": "Turismo"
+                    },
+                    {
+                        "SubFuncionID": 43,
+                        "Codigo": "04",
+                        "Descripcion": "Proyectos de desarrollo de servicios integrados"
+                    },
+                    {
+                        "SubFuncionID": 44,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo relacionado con los servicios economía"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "FinalidadID": 3,
+        "Codigo": 3,
+        "Descripcion": "PROTECCIÓN DEL MEDIO AMBIENTE",
+        "Funciones": [
+            {
+                "FuncionID": 14,
+                "Codigo": 1,
+                "Descripcion": "Protección del aire, agua y suelo",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 45,
+                        "Codigo": "01",
+                        "Descripcion": "Reducción de la contaminación"
+                    },
+                    {
+                        "SubFuncionID": 46,
+                        "Codigo": "02",
+                        "Descripcion": "Administración del agua"
+                    },
+                    {
+                        "SubFuncionID": 47,
+                        "Codigo": "03",
+                        "Descripcion": "Ordenación de aguas residuales, drenaje y alcantarillado"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 15,
+                "Codigo": 2,
+                "Descripcion": "Protección de la biodiversidad y ordenación de desechos",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 48,
+                        "Codigo": "01",
+                        "Descripcion": "Protección de la biodiversidad y el paisaje"
+                    },
+                    {
+                        "SubFuncionID": 49,
+                        "Codigo": "02",
+                        "Descripcion": "Ordenación de desechos"
+                    },
+                    {
+                        "SubFuncionID": 50,
+                        "Codigo": "03",
+                        "Descripcion": "Investigación y desarrollo relacionado con el medio ambiente"
+                    },
+                    {
+                        "SubFuncionID": 51,
+                        "Codigo": "04",
+                        "Descripcion": "Planificación, gestión y supervisión de la protección del medio ambiente"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "FinalidadID": 4,
+        "Codigo": 4,
+        "Descripcion": "SERVICIOS SOCIALES",
+        "Funciones": [
+            {
+                "FuncionID": 16,
+                "Codigo": 1,
+                "Descripcion": "Vivienda y servicios comunitarios",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 52,
+                        "Codigo": "01",
+                        "Descripcion": "Urbanización y servicios comunitarios"
+                    },
+                    {
+                        "SubFuncionID": 53,
+                        "Codigo": "02",
+                        "Descripcion": "Desarrollo comunitario"
+                    },
+                    {
+                        "SubFuncionID": 54,
+                        "Codigo": "03",
+                        "Descripcion": "Abastecimiento de agua potable"
+                    },
+                    {
+                        "SubFuncionID": 55,
+                        "Codigo": "04",
+                        "Descripcion": "Alumbrado público"
+                    },
+                    {
+                        "SubFuncionID": 56,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo relacionados con la vivienda y los servicios comunitarios"
+                    },
+                    {
+                        "SubFuncionID": 57,
+                        "Codigo": "99",
+                        "Descripcion": "Planificación, gestión y supervisión de vivienda y servicios comunitarios"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 17,
+                "Codigo": 2,
+                "Descripcion": "Salud",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 58,
+                        "Codigo": "01",
+                        "Descripcion": "Servicios para pacientes externos"
+                    },
+                    {
+                        "SubFuncionID": 59,
+                        "Codigo": "02",
+                        "Descripcion": "Servicios hospitalarios"
+                    },
+                    {
+                        "SubFuncionID": 60,
+                        "Codigo": "03",
+                        "Descripcion": "Servicios de la salud pública y prevención de la salud"
+                    },
+                    {
+                        "SubFuncionID": 61,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo relacionada con la salud"
+                    },
+                    {
+                        "SubFuncionID": 62,
+                        "Codigo": "99",
+                        "Descripcion": "Planificación, gestión y supervisión de la salud"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 18,
+                "Codigo": 3,
+                "Descripcion": "Actividades deportivas, recreativas, culturales y religiosas",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 63,
+                        "Codigo": "01",
+                        "Descripcion": "Deportes de alto rendimiento"
+                    },
+                    {
+                        "SubFuncionID": 64,
+                        "Codigo": "02",
+                        "Descripcion": "Servicios recreativos y deportivos"
+                    },
+                    {
+                        "SubFuncionID": 65,
+                        "Codigo": "03",
+                        "Descripcion": "Servicios culturales"
+                    },
+                    {
+                        "SubFuncionID": 66,
+                        "Codigo": "04",
+                        "Descripcion": "Servicios de radio, televisión y servicios editoriales"
+                    },
+                    {
+                        "SubFuncionID": 67,
+                        "Codigo": "05",
+                        "Descripcion": "Servicios religiosos y otros servicios comunitarios religiosos"
+                    },
+                    {
+                        "SubFuncionID": 68,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo relacionado con el esparcimiento, el deporte, la cultura y la religión"
+                    },
+                    {
+                        "SubFuncionID": 69,
+                        "Codigo": "99",
+                        "Descripcion": "Planificación, gestión y supervisión de las actividades deportivas, recreativas, culturales y religiosas"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 19,
+                "Codigo": 4,
+                "Descripcion": "Educación",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 70,
+                        "Codigo": "01",
+                        "Descripcion": "Educación inicial"
+                    },
+                    {
+                        "SubFuncionID": 71,
+                        "Codigo": "02",
+                        "Descripcion": "Educación básica"
+                    },
+                    {
+                        "SubFuncionID": 72,
+                        "Codigo": "03",
+                        "Descripcion": "Educación media"
+                    },
+                    {
+                        "SubFuncionID": 73,
+                        "Codigo": "04",
+                        "Descripcion": "Educación superior"
+                    },
+                    {
+                        "SubFuncionID": 74,
+                        "Codigo": "05",
+                        "Descripcion": "Educación adultos"
+                    },
+                    {
+                        "SubFuncionID": 75,
+                        "Codigo": "06",
+                        "Descripcion": "Educación técnica"
+                    },
+                    {
+                        "SubFuncionID": 76,
+                        "Codigo": "07",
+                        "Descripcion": "Educación vocacional"
+                    },
+                    {
+                        "SubFuncionID": 77,
+                        "Codigo": "08",
+                        "Descripcion": "Enseñanza y capacitación para defensa y seguridad"
+                    },
+                    {
+                        "SubFuncionID": 78,
+                        "Codigo": "09",
+                        "Descripcion": "Enseñanza no atribuible a ningún nivel"
+                    },
+                    {
+                        "SubFuncionID": 79,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo relacionada con la educación"
+                    },
+                    {
+                        "SubFuncionID": 80,
+                        "Codigo": "99",
+                        "Descripcion": "Planificación, gestión y supervisión de la educación"
+                    }
+                ]
+            },
+            {
+                "FuncionID": 20,
+                "Codigo": 5,
+                "Descripcion": "Protección social",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 81,
+                        "Codigo": "01",
+                        "Descripcion": "Edad avanzada, pensiones (por edad o incapacidad)"
+                    },
+                    {
+                        "SubFuncionID": 82,
+                        "Codigo": "02",
+                        "Descripcion": "Enfermedad"
+                    },
+                    {
+                        "SubFuncionID": 83,
+                        "Codigo": "03",
+                        "Descripcion": "Invalidez"
+                    },
+                    {
+                        "SubFuncionID": 84,
+                        "Codigo": "04",
+                        "Descripcion": "Supérstites"
+                    },
+                    {
+                        "SubFuncionID": 85,
+                        "Codigo": "05",
+                        "Descripcion": "Familia e hijos"
+                    },
+                    {
+                        "SubFuncionID": 86,
+                        "Codigo": "06",
+                        "Descripcion": "Desempleo"
+                    },
+                    {
+                        "SubFuncionID": 87,
+                        "Codigo": "07",
+                        "Descripcion": "Vivienda social"
+                    },
+                    {
+                        "SubFuncionID": 88,
+                        "Codigo": "08",
+                        "Descripcion": "Equidad de género"
+                    },
+                    {
+                        "SubFuncionID": 89,
+                        "Codigo": "09",
+                        "Descripcion": "Juventud"
+                    },
+                    {
+                        "SubFuncionID": 90,
+                        "Codigo": "10",
+                        "Descripcion": "Asistencia social"
+                    },
+                    {
+                        "SubFuncionID": 91,
+                        "Codigo": "98",
+                        "Descripcion": "Investigación y desarrollo relacionado con la protección social"
+                    },
+                    {
+                        "SubFuncionID": 92,
+                        "Codigo": "99",
+                        "Descripcion": "Planificación, gestión y supervisión de la protección social"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "FinalidadID": 5,
+        "Codigo": 5,
+        "Descripcion": "INTERESES DE LA DEUDA PÚBLICA",
+        "Funciones": [
+            {
+                "FuncionID": 21,
+                "Codigo": 1,
+                "Descripcion": "Intereses y comisiones de deuda pública",
+                "SubFunciones": [
+                    {
+                        "SubFuncionID": 93,
+                        "Codigo": "01",
+                        "Descripcion": "Intereses y comisiones de deuda pública"
+                    }
+                ]
+            }
+        ]
+    }
+]
